@@ -1,5 +1,7 @@
-import MyComponent from "./components/vanta";
+
+import MyComponent1 from "./components/vantanet";
+
 function App (){
-  return(<><MyComponent/></>)
+  return(<><MyComponent1/></>)
 }
 export default App;
