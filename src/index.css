@@ -1,3 +1,4 @@
+
 body {
   background: #fff;
   padding: 20px;
@@ -22,15 +23,16 @@ body {
   transition: transform 0.3s ease;
   margin-left : 700px;
   margin-top: 0px;
-  box-shadow: 0 4px 8px rgb(90, 235, 211); 
+  box-shadow: 0 4px 8px rgba(15, 15, 15, 0.747); 
+  margin-bottom: 230px;
 }
 
 .image-container img:hover {
   transform: translateY(-20px);
-  box-shadow: 0 8px 16px rgb(255, 255, 255); /* Darken the shadow on hover */
+  box-shadow: 0 8px 16px rgb(24, 23, 23); /* Darken the shadow on hover */
 }
 .glass-navbar {
-  background: rgba(21, 47, 117, 0.175);
+  background: rgba(13, 18, 71, 0);
   backdrop-filter: blur(10px);
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   position: fixed;
@@ -41,7 +43,7 @@ body {
 
 .navbar-brand,
 .nav-link {
-  color: white !important;
+  color: rgb(20, 19, 19) !important;
 }
 
 .nav-link {

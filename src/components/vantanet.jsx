@@ -25,8 +25,8 @@ class MyComponent1 extends React.Component {
         minWidth: 200.00,
         scale: 1.00,
         scaleMobile: 1.00,
-        color: 0x3fffff,
-        backgroundColor: 0x40722
+        color: 0xa9a9a9,
+        backgroundColor: 0xffffff, 
       });
     } else {
       console.error('THREE.js is not loaded. Ensure it is included in the document head.');
