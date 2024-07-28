@@ -13,14 +13,14 @@ class MyComponent extends React.Component {
     this.vantaEffect = BIRDS({
       el: this.vantaRef.current,
    
-      backgroundColor: 0xffffff, // White background
-      color1: 0xff4500, // Yellow color
-      color2: 0xff4500, // Orange color
-      birdSize: 1.0, // Adjust the bird size if needed
-      speedLimit: 3.0, // Adjust the speed of birds if needed
-      separation: 50.0, // Adjust the separation between birds if needed
-      alignment: 50.0, // Adjust the alignment of birds if needed
-      cohesion: 50.0 // Adjust the cohesion of birds if needed
+      // backgroundColor: 0xffffff, // White background
+      // color1: 0xff4500, // Yellow color
+      // color2: 0xff4500, // Orange color
+      // birdSize: 1.0, // Adjust the bird size if needed
+      // speedLimit: 3.0, // Adjust the speed of birds if needed
+      // separation: 50.0, // Adjust the separation between birds if needed
+      // alignment: 50.0, // Adjust the alignment of birds if needed
+      // cohesion: 50.0 // Adjust the cohesion of birds if needed
     });
   }
 
