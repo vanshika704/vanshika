@@ -29,3 +29,28 @@ body {
   transform: translateY(-20px);
   box-shadow: 0 8px 16px rgb(255, 255, 255); /* Darken the shadow on hover */
 }
+.glass-navbar {
+  background: rgba(21, 47, 117, 0.175);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar-brand,
+.nav-link {
+  color: white !important;
+}
+
+.nav-link {
+  transition: background 0.3s ease, color 0.3s ease;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.nav-link:hover {
+  background: rgba(85, 222, 240, 0.425);
+  color: black !important;
+}
