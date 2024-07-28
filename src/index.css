@@ -8,3 +8,24 @@ body {
   padding: 20px;
   font-size: 24px;
 }
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.image-container img {
+  border-radius: 50%;
+  height: 350px; 
+  width: 350px; 
+  transition: transform 0.3s ease;
+  margin-left : 700px;
+  margin-top: 0px;
+  box-shadow: 0 4px 8px rgb(90, 235, 211); 
+}
+
+.image-container img:hover {
+  transform: translateY(-20px);
+  box-shadow: 0 8px 16px rgb(255, 255, 255); /* Darken the shadow on hover */
+}

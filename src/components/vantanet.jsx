@@ -1,5 +1,6 @@
 import React from 'react';
 import NET from 'vanta/dist/vanta.net.min'; // Make sure the Vanta effect you want is imported
+import "../index.css"
 
 class MyComponent1 extends React.Component {
   constructor() {
@@ -42,7 +43,13 @@ class MyComponent1 extends React.Component {
       overflow: 'hidden',
     };
 
-    return <div ref={this.vantaRef} style={style} />;
+    return (
+      <div ref={this.vantaRef} style={style}>
+        <div className="image-container">
+          <img src="src/assets/IMG-20240117-WA0060.jpg" alt="example" />
+        </div>
+      </div>
+    );
   }
 }
 
