@@ -25,6 +25,7 @@ class MyComponent1 extends React.Component {
         minWidth: 200.00,
         scale: 1.00,
         scaleMobile: 1.00,
+       
         color: 0xa9a9a9,
         backgroundColor: 0xffffff, 
       });
