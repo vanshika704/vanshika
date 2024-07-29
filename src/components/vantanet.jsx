@@ -17,7 +17,7 @@ class MyComponent1 extends React.Component {
     if (window.THREE) {
       this.vantaEffect = NET({
         el: this.vantaRef.current,
-        // Example options, adjust as needed
+       
         mouseControls: true,
         touchControls: true,
         gyroControls: false,
