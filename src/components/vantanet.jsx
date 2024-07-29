@@ -13,7 +13,7 @@ class MyComponent1 extends React.Component {
   }
 
   componentDidMount() {
-    // Initialize Vanta effect after ensuring window.THREE is available
+    
     if (window.THREE) {
       this.vantaEffect = NET({
         el: this.vantaRef.current,
