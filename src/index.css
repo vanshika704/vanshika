@@ -21,7 +21,7 @@ body {
   height: 400px; 
   width: 400px; 
   transition: transform 0.3s ease;
-  margin-left : 700px;
+  margin-left : 500px;
   margin-top: 0px;
   box-shadow: 0 4px 8px rgba(15, 15, 15, 0.747); 
   margin-bottom: 230px;
@@ -39,11 +39,13 @@ body {
   width: 100%;
   top: 0;
   z-index: 1000;
+  
 }
 
 .navbar-nav .nav-link {
   color: #000; /* Default link color */
   transition: color 0.3s;
+  font-family: 'Poppins', sans-serif; ;
 }
 
 .navbar-nav .nav-link:hover {
@@ -62,7 +64,27 @@ body {
   border-radius: 5px;
 }
 
+
 .nav-link:hover {
   background: rgba(85, 222, 240, 0.425);
   color: black !important;
 }
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+.text{font-family: 'Poppins', sans-serif;
+font-size: xx-large;}
