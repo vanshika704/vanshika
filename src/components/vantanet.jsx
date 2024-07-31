@@ -52,12 +52,14 @@ class MyComponent1 extends React.Component {
       <div ref={this.vantaRef} style={style}>
         <div><Navbar/></div>
 
-        <div className="image-container">
+       <div className='center'>
           <div className='poppins-bold text'>Hi Everyone ! <br></br>
           I am Vanshika <br></br>
-          Front End Developer</div>
+          Front End Developer </div>
+          <div className="image-container">
           <img src="src/assets/IMG-20240117-WA0060.jpg" alt="example" />
         </div>
+      </div>
       </div>
     );
   }
