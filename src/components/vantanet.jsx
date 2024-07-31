@@ -5,7 +5,6 @@ import Navbar from './navbar';
 // In your main JavaScript file, import Bootstrap CSS
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-
 class MyComponent1 extends React.Component {
   constructor() {
     super();
@@ -13,11 +12,9 @@ class MyComponent1 extends React.Component {
   }
 
   componentDidMount() {
-    
     if (window.THREE) {
       this.vantaEffect = NET({
         el: this.vantaRef.current,
-       
         mouseControls: true,
         touchControls: true,
         gyroControls: false,
@@ -25,9 +22,8 @@ class MyComponent1 extends React.Component {
         minWidth: 200.00,
         scale: 1.00,
         scaleMobile: 1.00,
-       
         color: 0xa9a9a9,
-        backgroundColor: 0xffffff, 
+        backgroundColor: 0xffffff,
       });
     } else {
       console.error('THREE.js is not loaded. Ensure it is included in the document head.');
@@ -50,16 +46,24 @@ class MyComponent1 extends React.Component {
 
     return (
       <div ref={this.vantaRef} style={style}>
-        <div><Navbar/></div>
+        <div><Navbar /></div>
 
-       <div className='center'>
-          <div className='poppins-bold text'>Hi Everyone !!! <br></br>
-          I am Vanshika <br></br>
-          <div className='developer'>  FrontEnd Developer <img src='src/assets/pixel-art-12601_256.gif' height={120} className='icon'></img></div></div>
+        <div className='center'>
+          <div className='poppins-bold text'>
+            Hi Everyone !!! <br />
+            I am Vanshika <br />
+            <div className='developer'>
+              FrontEnd Developer 
+              <img src='src/assets/pixel-art-12601_256.gif' height={120} className='icon' />
+            </div>
+            <div className='button-container'>
+              <button type="button" className="btn btn-dark resume">Resume <img src='src/assets/icons8-download.gif'></img> </button>
+            </div>
+          </div>
           <div className="image-container">
-          <img src="src/assets/IMG-20240117-WA0060.jpg" alt="example" />
+            <img src="src/assets/IMG-20240117-WA0060.jpg" alt="example" />
+          </div>
         </div>
-      </div>
       </div>
     );
   }
