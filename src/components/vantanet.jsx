@@ -53,11 +53,11 @@ class MyComponent1 extends React.Component {
             Hi Everyone !!! <br />
             I am Vanshika <br />
             <div className='developer'>
-              FrontEnd Developer 
+           FrontEnd Developer 
               <img src='src/assets/pixel-art-12601_256.gif' height={120} className='icon' />
             </div>
             <div className='button-container'>
-              <button type="button" className="btn btn-outline-secondary resume ">Resume <img src='src/assets/icons8-download.gif'></img> </button>
+              <button type="button" className="btn btn-dark resume ">Resume <img src='src/assets/icons8-download.gif'></img> </button>
             </div>
           </div>
           <div className="image-container">
