@@ -40,12 +40,24 @@ class MyComponent extends React.Component {
 
     return (
       <div ref={this.vantaRef} style={style}>
-        <div>
-          <Navbar />
-        </div>
-        <div className="image-container">
-          <img src="src/assets/IMG-20240117-WA0060.jpg" alt="example" />
-        </div>
+         <div><Navbar /></div>
+
+<div className='center'>
+  <div className='poppins-bold text ' >
+    Hi Everyone !!! <br />
+    I am Vanshika <br />
+    <div className='developer'>
+   FrontEnd Developer 
+      <img src='src/assets/pixel-art-12601_256.gif' height={120} className='icon' />
+    </div>
+    <div className='button-container'>
+      <button type="button" className="btn btn-light resume ">Resume <img src='src/assets/icons8-download.gif'></img> </button>
+    </div>
+  </div>
+  <div className="image-container">
+    <img src="src/assets/IMG-20240117-WA0060.jpg" alt="example" />
+  </div>
+</div>
       </div>
     );
   }
