@@ -87,10 +87,22 @@ body {
   font-style: normal;
 }
 .text{font-family: 'Poppins', sans-serif;
-font-size: xx-large;
+  font-size: 44px;
 margin-bottom: 200px;
-margin-left: 100px;}
+margin-left: 50px;
+width: 700px;
+margin-top: 50px;}
 .center{
   display: flex;
-  margin-top: 100px;
+  margin-top: 80px;
+  width: 1200px;
+ 
+}
+.developer{
+  display: Flex;
+  height: 100;
+}
+.icon{
+  margin-left: 5px;
+  margin-bottom: 200px;
 }

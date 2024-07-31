@@ -53,9 +53,9 @@ class MyComponent1 extends React.Component {
         <div><Navbar/></div>
 
        <div className='center'>
-          <div className='poppins-bold text'>Hi Everyone ! <br></br>
+          <div className='poppins-bold text'>Hi Everyone !!! <br></br>
           I am Vanshika <br></br>
-          Front End Developer </div>
+          <div className='developer'>  FrontEnd Developer <img src='src/assets/pixel-art-12601_256.gif' height={120} className='icon'></img></div></div>
           <div className="image-container">
           <img src="src/assets/IMG-20240117-WA0060.jpg" alt="example" />
         </div>
