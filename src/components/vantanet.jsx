@@ -1,20 +1,20 @@
-import React from 'react';
+import  { useEffect, useRef } from 'react';
+import { useNavigate } from 'react-router-dom';
 import NET from 'vanta/dist/vanta.net.min'; // Make sure the Vanta effect you want is imported
-import "../index.css"
+import "../index.css";
 import Navbar from './navbar';
-// In your main JavaScript file, import Bootstrap CSS
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-class MyComponent1 extends React.Component {
-  constructor() {
-    super();
-    this.vantaRef = React.createRef();
-  }
+const MyComponent1 = () => {
+  const vantaRef = useRef(null);
+  const navigate = useNavigate();
 
-  componentDidMount() {
+  useEffect(() => {
+    let vantaEffect = null;
+
     if (window.THREE) {
-      this.vantaEffect = NET({
-        el: this.vantaRef.current,
+      vantaEffect = NET({
+        el: vantaRef.current,
         mouseControls: true,
         touchControls: true,
         gyroControls: false,
@@ -28,46 +28,48 @@ class MyComponent1 extends React.Component {
     } else {
       console.error('THREE.js is not loaded. Ensure it is included in the document head.');
     }
-  }
 
-  componentWillUnmount() {
-    if (this.vantaEffect) this.vantaEffect.destroy();
-  }
-
-  render() {
-    const style = {
-      width: '100vw',
-      height: '100vh',
-      position: 'absolute',
-      top: 0,
-      left: 0,
-      overflow: 'hidden',
+    return () => {
+      if (vantaEffect) vantaEffect.destroy();
     };
+  }, []);
 
-    return (
-      <div ref={this.vantaRef} style={style}>
-        <div><Navbar /></div>
+  const handleExploreClick = () => {
+    navigate('/explore');
+  };
 
-        <div className='center'>
-          <div className='poppins-bold text'>
-            Hi Everyone !!! <br />
-            I am Vanshika <br />
-            <div className='developer'>
-           FrontEnd Developer 
-              <img src='src/assets/pixel-art-12601_256.gif' height={120} className='icon' />
-            </div>
-            <div className='button-container'>
-              <button type="button" className="btn btn-dark resume ">Resume </button>
-              <button type="button" className="btn btn-dark resume ">Explore </button>
-              </div>
+  const style = {
+    width: '100vw',
+    height: '100vh',
+    position: 'absolute',
+    top: 0,
+    left: 0,
+    overflow: 'hidden',
+  };
+
+  return (
+    <div ref={vantaRef} style={style}>
+      <div><Navbar /></div>
+
+      <div className='center'>
+        <div className='poppins-bold text'>
+          Hi Everyone !!! <br />
+          I am Vanshika <br />
+          <div className='developer'>
+            FrontEnd Developer 
+            <img src='src/assets/pixel-art-12601_256.gif' height={120} className='icon' />
           </div>
-          <div className="image-container">
-            <img src="src/assets/IMG-20240117-WA0060.jpg" alt="example" />
+          <div className='button-container'>
+            <button type="button" className="btn btn-dark resume">Resume</button>
+            <button type="button" className="btn btn-dark resume" onClick={handleExploreClick}>Explore</button>
           </div>
         </div>
+        <div className="image-container">
+          <img src="src/assets/IMG-20240117-WA0060.jpg" alt="example" />
+        </div>
       </div>
-    );
-  }
-}
+    </div>
+  );
+};
 
 export default MyComponent1;
