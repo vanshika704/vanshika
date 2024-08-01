@@ -12,8 +12,8 @@ function Navbar() {
           <span className="navbar-toggler-icon"><img src='src/assets/hi.gif'></img></span>
         </button> */}
         <div className='icons'>
-        <img src='src/assets/hi.gif' height={30}></img>
-        <img src='src/assets/namaste.gif' height={30}></img>
+        <img src='src/assets/hi.gif' height={35}></img>
+       
         </div>
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav">
