@@ -35,7 +35,7 @@ const MyComponent1 = () => {
   }, []);
 
   const handleExploreClick = () => {
-    navigate('/explore');
+    navigate('/about');
   };
 
   const style = {

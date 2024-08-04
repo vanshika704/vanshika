@@ -1,4 +1,8 @@
+
+import CloudsComponent from "../components/clouds";
+
+
 function About (){
-    return(<></>)
+    return(<><CloudsComponent/></>)
 }
 export default About;

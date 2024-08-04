@@ -1,4 +1,6 @@
+
+
 function Contact (){
-    return (<>kya krega be contact krke</>)
+    return (<></>)
 }
 export default Contact;
