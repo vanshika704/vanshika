@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import CLOUDS from 'vanta/dist/vanta.clouds.min';
 import Navbar from './navbar';
 import { MacBookScroll } from 'aceternity-ui';
-import 'aceternity-ui/dist/index.css'; // Correct path to CSS file
+import 'aceternity-ui/dist/index.css'; // Ensure the path is correct
 
 class CloudsComponent extends Component {
   constructor(props) {
