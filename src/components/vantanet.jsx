@@ -57,7 +57,7 @@ const MyComponent1 = () => {
           I am Vanshika <br />
           <div className='developer'>
             FrontEnd Developer 
-            <img src='src/assets/pixel-art-12601_256.gif' height={120} className='icon' />
+            <img src='src/assets/pixel-art-12601_256.gif' height={50} className='icon' />
           </div>
           <div className='button-container'>
             <button type="button" className="btn btn-dark resume">Resume</button>

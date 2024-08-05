@@ -7,7 +7,7 @@ const __dirname = path.dirname(new URL(import.meta.url).pathname);
 
 export default defineConfig({
   plugins: [react()],
-  resolve: {
+  resolve: { extensions: ['.js', '.jsx', '.ts', '.tsx'],
     alias: {
       '@': path.resolve(__dirname, 'src'),
     },
