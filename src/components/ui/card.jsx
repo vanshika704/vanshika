@@ -16,7 +16,10 @@ export function ThreeDCardDemo() {
     { src: 'src/assets/html.png', alt: 'HTML' },
     { src: 'src/assets/css.svg', alt: 'CSS' },
     { src: 'src/assets/javascript.png', alt: 'JavaScript' },
-    { src: 'src/assets/java.webp', alt: 'Java' }
+    { src: 'src/assets/java.webp', alt: 'Java' },
+    { src: 'src/assets/tailwind.png', alt: 'tailwind' },
+    { src: 'src/assets/figma.png', alt: 'figma' },
+    { src: 'src/assets/canva.jpg', alt: 'canva' },
   ];
 
   return (
@@ -41,7 +44,7 @@ export function ThreeDCardDemo() {
                   justifyContent='center'
                   border='1px solid #ccc' // Optional: Adds a border to see the grid layout
                 >
-                  <Image src={tech.src} alt={tech.alt} boxSize='100px' objectFit='cover' />
+                  <Image src={tech.src} alt={tech.alt} boxSize='80px' objectFit='cover' />
                 </GridItem>
               ))}
             </Grid>
