@@ -1,10 +1,12 @@
-import React from 'react';
+import React, { Component } from 'react';
 import CLOUDS from 'vanta/dist/vanta.clouds.min';
 import Navbar from './navbar';
+import { MacBookScroll } from 'aceternity-ui';
+import 'aceternity-ui/dist/index.css'; // Correct path to CSS file
 
-class CloudsComponent extends React.Component {
-  constructor() {
-    super();
+class CloudsComponent extends Component {
+  constructor(props) {
+    super(props);
     this.vantaRef = React.createRef();
   }
 
@@ -17,7 +19,7 @@ class CloudsComponent extends React.Component {
       minHeight: 200.00,
       minWidth: 200.00,
       skyColor: 0x48c6fa,
-      cloudColor: 0xbcd7ff
+      cloudColor: 0xbcd7ff,
     });
   }
 
@@ -37,9 +39,11 @@ class CloudsComponent extends React.Component {
 
     return (
       <div ref={this.vantaRef} style={style}>
-        <div><Navbar /></div>
-        
-        
+        <Navbar />
+        <MacBookScroll>
+          <h1>Welcome to My Project</h1>
+          <p>This is a demo of the MacBookScroll effect using Aceternity UI.</p>
+        </MacBookScroll>
       </div>
     );
   }
