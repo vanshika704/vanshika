@@ -22,10 +22,10 @@ body {
   height: 400px; 
   width: 400px; 
   transition: transform 0.3s ease;
-  margin-left : 300px;
+  margin-left : 100px;
   margin-top: 0px;
   box-shadow: 0 4px 8px rgba(15, 15, 15, 0.747); 
-  margin-bottom: 250px;
+  margin-bottom: 200px;
 }
 
 .image-container img:hover {
@@ -98,7 +98,7 @@ body {
 }
 .text{font-family: 'Poppins', sans-serif;
   font-size: 44px;
-margin-bottom: 100px;
+margin-bottom: 50px;
 margin-left: 50px;
 width: 700px;
 margin-top: 50px;}
@@ -112,11 +112,14 @@ margin-top: 50px;}
 }
 .developer{
   display: Flex;
-  height: 50;
+  height: 10;
 }
 .icon{
   margin-left: 5px;
-  margin-bottom: 0px;
+ margin-bottom: 10px;
+height: 120px;
+
+  
 }
 .resume{
   margin-left: 10px;
@@ -130,4 +133,8 @@ margin-top: 50px;}
 .text1{
   margin-left: 300px;
   font-size: 54px;
+}
+.button-container{
+  margin-top: 0px;
+  margin-bottom: 300px;
 }

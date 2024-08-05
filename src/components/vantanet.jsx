@@ -55,9 +55,10 @@ const MyComponent1 = () => {
         <div className='poppins-bold text'>
           Hi Everyone !!! <br />
           I am Vanshika <br />
+          FrontEnd<br/>
           <div className='developer'>
-            FrontEnd Developer 
-            <img src='src/assets/pixel-art-12601_256.gif' height={50} className='icon' />
+             Developer 
+            <img src='src/assets/pixel-art-12601_256.gif' className='icon' />
           </div>
           <div className='button-container'>
             <button type="button" className="btn btn-dark resume">Resume</button>
