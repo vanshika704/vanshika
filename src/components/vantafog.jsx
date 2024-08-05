@@ -43,6 +43,7 @@ class FogComponent extends React.Component {
     return (
       <div ref={this.vantaRef} style={style}>
         <div><Navbar /></div>
+       
       </div>
     );
   }

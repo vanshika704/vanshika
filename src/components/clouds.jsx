@@ -3,6 +3,8 @@ import CLOUDS from 'vanta/dist/vanta.clouds.min';
 import Navbar from './navbar';
 
 
+
+
 class CloudsComponent extends React.Component {
   constructor() {
     super();
@@ -40,7 +42,7 @@ class CloudsComponent extends React.Component {
       <div ref={this.vantaRef} style={style}>
         <div><Navbar /></div>
         
-      
+
       </div>
     );
   }

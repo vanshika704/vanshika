@@ -1,26 +1,9 @@
-
-import flattenColorPalette from 'tailwindcss/lib/util/flattenColorPalette';
-
+// tailwind.config.js
 /** @type {import('tailwindcss').Config} */
-export default {
-  content: [
-    "./src/**/*.{ts,tsx}",
-    "./public/**/*.{js,ts,jsx,tsx,mdx}" // Include public directory if you have static assets
-  ],
-  darkMode: "class",
-  theme: {
-    extend: {},
-  },
-  plugins: [
-    function addVariablesForColors({ addBase, theme }) {
-      const allColors = flattenColorPalette(theme('colors'));
-      const newVars = Object.fromEntries(
-        Object.entries(allColors).map(([key, val]) => [`--${key}`, val])
-      );
-
-      addBase({
-        ":root": newVars,
-      });
-    },
-  ],
+export const content = [
+  "./src/**/*.{js,jsx,ts,tsx}", // Adjust paths as necessary
+];
+export const theme = {
+  extend: {},
 };
+export const plugins = [];
