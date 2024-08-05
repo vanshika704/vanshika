@@ -16,9 +16,12 @@ class FogComponent extends React.Component {
       gyroControls: false,
       minHeight: 200.00,
       minWidth: 200.00,
-      highlightColor: 0x7bc2e8,
-      midtoneColor: 0xc1dbf2,
-      lowlightColor: 0xd1ff
+      highlightColor: 0x7bc2e8, // Light blue
+      midtoneColor: 0x9fc5e8,   // Slightly lighter light blue
+      lowlightColor: 0x007acc,   // Darker blue for contrast
+      baseColor: 0x000000,       // Black background
+      waveHeight: 10,
+      waveSpeed: 1.0
     });
   }
 
@@ -34,13 +37,12 @@ class FogComponent extends React.Component {
       top: 0,
       left: 0,
       overflow: 'hidden',
+      backgroundColor: '#000000', // Ensure the background is black
     };
 
     return (
       <div ref={this.vantaRef} style={style}>
         <div><Navbar /></div>
-        
-        
       </div>
     );
   }
