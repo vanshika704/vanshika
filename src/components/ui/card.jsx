@@ -5,7 +5,7 @@ import { Grid, GridItem, Image } from '@chakra-ui/react';
 
 export function ThreeDCardDemo() {
   const techImages = [
-    { src: 'src/assets/react.svg', alt: 'React' },
+    { src: 'src/assets/react.png', alt: 'React' },
     { src: 'src/assets/Bootstrap_logo.svg.png', alt: 'Bootstrap' },
     { src: 'src/assets/chakra1.jpg', alt: 'Chakra UI' },
     { src: 'src/assets/flutter.svg', alt: 'Flutter' },
