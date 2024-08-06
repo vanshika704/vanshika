@@ -38,11 +38,12 @@ export function ThreeDCardDemo() {
                 <GridItem 
                   key={index} 
                   colSpan={1} 
-                  bg='transparent' 
+                  bg= "transparent"
                   display='flex' 
                   alignItems='center' 
                   justifyContent='center'
-                  border='1px solid #ccc' // Optional: Adds a border to see the grid layout
+                  border='1px solid #ccc' 
+                  // Optional: Adds a border to see the grid layout
                 >
                   <Image src={tech.src} alt={tech.alt} boxSize='80px' objectFit='cover' />
                 </GridItem>
