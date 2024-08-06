@@ -1,7 +1,5 @@
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+
 
 
 body {
@@ -141,4 +139,9 @@ height: 120px;
 .button-container{
   margin-top: 0px;
   margin-bottom: 300px;
+}
+.box{
+  margin-left: 300px;
+  margin-top: 300px;
+  margin-right: 0px;
 }

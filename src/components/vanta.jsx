@@ -3,6 +3,9 @@ import BIRDS from 'vanta/dist/vanta.birds.min';
 // import * as THREE from 'three'; // Ensure THREE.js is available
 import Navbar from './navbar';
 
+
+
+
 class MyComponent extends React.Component {
   constructor() {
     super();
@@ -43,6 +46,7 @@ class MyComponent extends React.Component {
     return (
       <div ref={this.vantaRef} style={style}>
         <Navbar />
+
       </div>
     );
   }
