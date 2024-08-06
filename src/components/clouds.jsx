@@ -21,6 +21,8 @@ class CloudsComponent extends React.Component {
       minWidth: 200.00,
       skyColor: 0x48c6fa,
       cloudColor: 0xbcd7ff
+//       skyColor: 0x87CEEB,    // Light sky blue
+// cloudColor: 0xbcd7ff   // Light blue
     });
   }
 

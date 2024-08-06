@@ -22,19 +22,19 @@ class FogComponent extends React.Component {
       // baseColor: 0x7bc2e8,      // Black background
       // waveHeight: 10,
       // waveSpeed: 1.0
-//       highlightColor: 0x007acc,  // Dark blue
-// midtoneColor: 0x9fc5e8,    // Slightly lighter light blue
-// lowlightColor: 0x000000,   // Black for contrast
-// baseColor: 0xffffff,       // White background
-// waveHeight: 10,
-// waveSpeed: 1.0
-
-highlightColor: 0x808080,  // Grey
-midtoneColor: 0xbfbfbf,    // Light grey
-lowlightColor: 0x404040,   // Dark grey for contrast
+      highlightColor: 0x48c6fa,  // Dark blue
+midtoneColor: 0x9fc5e8,    // Slightly lighter light blue
+lowlightColor: 0x000000,   // Black for contrast
 baseColor: 0xffffff,       // White background
 waveHeight: 10,
 waveSpeed: 1.0
+
+// highlightColor: 0x808080,  // Grey
+// midtoneColor: 0xbfbfbf,    // Light grey
+// lowlightColor: 0x404040,   // Dark grey for contrast
+// baseColor: 0xffffff,       // White background
+// waveHeight: 10,
+// waveSpeed: 1.0
     });
   }
 
