@@ -1,4 +1,6 @@
+import FogComponent from "../components/vantafog";
+
 function Experience (){
-    return (<></>)
+    return (<><FogComponent/></>)
 }
 export default Experience;

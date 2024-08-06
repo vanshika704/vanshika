@@ -1,6 +1,7 @@
+import MyComponent from "../components/vanta";
 
 
 function Contact (){
-    return (<></>)
+    return (<><MyComponent/></>)
 }
 export default Contact;

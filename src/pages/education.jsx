@@ -1,4 +1,6 @@
+import FogComponent from "../components/vantafog";
+
 function Education (){
-    return (<></>)
+    return (<><FogComponent/></>)
 }
 export default Education;

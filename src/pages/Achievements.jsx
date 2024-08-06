@@ -1,4 +1,6 @@
+import FogComponent from "../components/vantafog";
+
 function Achievements(){
-    return (<></>)
+    return (<><FogComponent/></>)
 }
 export default Achievements;

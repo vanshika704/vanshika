@@ -1,8 +1,9 @@
 
-import CloudsComponent from "../components/clouds";
+
+import FogComponent from "../components/vantafog";
 
 
 function About (){
-    return(<><CloudsComponent/></>)
+    return(<><FogComponent/></>)
 }
 export default About;

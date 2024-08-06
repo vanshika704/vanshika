@@ -1,6 +1,6 @@
 import React from 'react';
 import BIRDS from 'vanta/dist/vanta.birds.min';
-// import * as THREE from 'three'; // Ensure three.js is available
+// import * as THREE from 'three'; // Ensure THREE.js is available
 import Navbar from './navbar';
 
 class MyComponent extends React.Component {
@@ -10,12 +10,13 @@ class MyComponent extends React.Component {
   }
 
   componentDidMount() {
+    // Initialize the Vanta.js effect
     this.vantaEffect = BIRDS({
       el: this.vantaRef.current,
-   
-      // backgroundColor: 0xffffff, // White background
-      // color1: 0xff4500, // Yellow color
-      // color2: 0xff4500, // Orange color
+      backgroundColor: 0xe0f7fa, // Light cyan background
+      color1: 0x333333, // Dark grey color for birds
+      color2: 0xffffff, // White color for birds
+      // Uncomment and adjust these properties if needed:
       // birdSize: 1.0, // Adjust the bird size if needed
       // speedLimit: 3.0, // Adjust the speed of birds if needed
       // separation: 50.0, // Adjust the separation between birds if needed
@@ -25,6 +26,7 @@ class MyComponent extends React.Component {
   }
 
   componentWillUnmount() {
+    // Clean up the Vanta.js effect
     if (this.vantaEffect) this.vantaEffect.destroy();
   }
 
@@ -40,24 +42,7 @@ class MyComponent extends React.Component {
 
     return (
       <div ref={this.vantaRef} style={style}>
-         <div><Navbar /></div>
-
-<div className='center'>
-  <div className='poppins-bold text ' >
-    Hi Everyone !!! <br />
-    I am Vanshika <br />
-    <div className='developer'>
-   FrontEnd Developer 
-      <img src='src/assets/pixel-art-12601_256.gif' height={120} className='icon' />
-    </div>
-    <div className='button-container'>
-      <button type="button" className="btn btn-light resume ">Resume <img src='src/assets/icons8-download.gif'></img> </button>
-    </div>
-  </div>
-  <div className="image-container">
-    <img src="src/assets/IMG-20240117-WA0060.jpg" alt="example" />
-  </div>
-</div>
+        <Navbar />
       </div>
     );
   }
