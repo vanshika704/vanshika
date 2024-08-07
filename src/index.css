@@ -151,3 +151,36 @@ height: 120px;
   display: flex;
   margin-top: 150px;
 }
+/* src/index.css */
+.book-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: white;
+  border: 1px solid #ccc;
+}
+
+.page-content {
+  padding: 20px;
+  font-size: 18px;
+  text-align: center;
+}
+.demoPage {
+  background-color: rgb(66, 64, 64);
+  background-image: url("src/assets/ayeiya.jpg");
+  color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  border: 1px solid #ddd; /* Optional: add borders to mimic book pages */
+}
+
