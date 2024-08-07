@@ -3,7 +3,7 @@ import { Card, Image, Stack, Heading, Text, Button, ButtonGroup, Divider, CardBo
 function Social() {
   return (
     <Box className='Social' display='flex' justifyContent='space-between' gap='20px'>
-      <Card maxW='sm'>
+      <Card maxW='sm' backgroundColor='rgba(47, 47, 47, 0.5)'>
         <CardBody>
           <Image
             src='src/assets/twetter.avif'
@@ -28,7 +28,7 @@ function Social() {
         </CardFooter>
       </Card>
       
-      <Card maxW='sm'>
+      <Card maxW='sm' backgroundColor='rgba(47, 47, 47, 0.5)'>
         <CardBody>
           <Image
             src='src/assets/linkedin-2.png'
@@ -53,7 +53,7 @@ function Social() {
         </CardFooter>
       </Card>
       
-      <Card maxW='sm'>
+      <Card maxW='sm' backgroundColor='rgba(47, 47, 47, 0.5)'>
         <CardBody>
           <Image
             src='src/assets/gmail.webp'
