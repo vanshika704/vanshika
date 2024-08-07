@@ -3,15 +3,15 @@
 import HTMLFlipBook from "react-pageflip";
 
 function MyBook() {
-  return (
+  return (<div className="bookContainer">
     <HTMLFlipBook
-      width={550}
-      height={733}
+      width={300}
+      height={533}
       size="stretch"
       minWidth={315}
-      maxWidth={1000}
+      maxWidth={300}
       minHeight={420}
-      maxHeight={1350}
+      maxHeight={950}
       maxShadowOpacity={0.5}
       showCover={true}
       mobileScrollSupport={false}
@@ -20,7 +20,7 @@ function MyBook() {
       <div className="demoPage">I am a web developer.</div>
       <div className="demoPage">I love working with React.js.</div>
       <div className="demoPage">I enjoy creating interactive UIs.</div>
-    </HTMLFlipBook>
+    </HTMLFlipBook></div>
   );
 }
 

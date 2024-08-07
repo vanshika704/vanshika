@@ -4,7 +4,7 @@ import React from 'react';
 import FOG from 'vanta/dist/vanta.fog.min';
 import Navbar from '../components/navbar'
 
-import Book from '../components/ui/aboutdata';
+
 class About extends React.Component {
   constructor() {
     super();
@@ -59,7 +59,7 @@ waveSpeed: 1.0
     return (
       <div ref={this.vantaRef} style={style}>
         <div><Navbar /></div>
-      <Book/>
+
       </div>
     );
   }

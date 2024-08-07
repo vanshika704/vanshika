@@ -2,7 +2,7 @@
 // import { useEffect, useRef } from 'react';
 // import PropTypes from 'prop-types';
 
-// import { HTMLFlipBook } from 'stpageflip';
+
 
 // const Book = ({ pages }) => {
 //   const bookRef = useRef(null);
@@ -39,12 +39,12 @@
 //   );
 // };
 
-// // Book.propTypes = {
-// //   pages: PropTypes.arrayOf(
-// //     PropTypes.shape({
-// //       content: PropTypes.string.isRequired,
-// //     })
-// //   ).isRequired,
-// // };
+// Book.propTypes = {
+//   pages: PropTypes.arrayOf(
+//     PropTypes.shape({
+//       content: PropTypes.string.isRequired,
+//     })
+//   ).isRequired,
+// };
 
-// // export default Book;
+// export default Book;
