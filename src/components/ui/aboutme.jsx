@@ -17,7 +17,7 @@ function MyBook() {
         showCover={true}
         mobileScrollSupport={false}
       >
-        <div className="demoPage">Hi, my name is Vanshika.</div>
+        <div className="demoPage demopage1">Hi, my name is Vanshika.</div>
         <div className="demoPage">I am a web developer.</div>
         <div className="demoPage">I love working with React.js.</div>
         <div className="demoPage">I enjoy creating interactive UIs.</div>

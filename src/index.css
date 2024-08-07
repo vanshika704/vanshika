@@ -189,3 +189,11 @@ height: 120px;
   width: 100%;
   border: 1px solid #ddd; /* Optional: add borders to mimic book pages */
 }
+.demopage1{
+  background-image: url("src/assets/projects.png");
+ /* Use relative path if needed */
+  background-size: cover; /* Ensures the image covers the entire element */
+  background-position: center; /* Centers the image within the element */
+  background-repeat: no-repeat; /* Prevents image from repeating */
+  color: rgb(249, 246, 246);
+}
