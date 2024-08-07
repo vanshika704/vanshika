@@ -190,10 +190,29 @@ height: 120px;
   border: 1px solid #ddd; /* Optional: add borders to mimic book pages */
 }
 .demopage1{
-  background-image: url("src/assets/projects.png");
+  background-image: url("src/assets/wow2.jpg");
  /* Use relative path if needed */
   background-size: cover; /* Ensures the image covers the entire element */
   background-position: center; /* Centers the image within the element */
   background-repeat: no-repeat; /* Prevents image from repeating */
   color: rgb(249, 246, 246);
+
+}
+.demopage2{
+  background-image: url("src/assets/wow.jpg");
+ /* Use relative path if needed */
+  background-size: cover; /* Ensures the image covers the entire element */
+  background-position: center; /* Centers the image within the element */
+  background-repeat: no-repeat; /* Prevents image from repeating */
+  color: rgb(249, 246, 246);
+  
+}
+.demopage3{
+  background-image: url("src/assets/wow.jpg");
+ /* Use relative path if needed */
+  background-size: cover; /* Ensures the image covers the entire element */
+  background-position: center; /* Centers the image within the element */
+  background-repeat: no-repeat; /* Prevents image from repeating */
+  color: rgb(249, 246, 246);
+  
 }

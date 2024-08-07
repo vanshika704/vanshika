@@ -6,21 +6,21 @@ function MyBook() {
   return (
     <div className="bookContainer">
       <HTMLFlipBook
-        width={300} // Increased width
-        height={500} // Increased height
+        width={400} // Increased width
+        height={550} // Increased height
         size="stretch"
-        minWidth={300}
-        maxWidth={300}
-        minHeight={500}
-        maxHeight={500}
+        minWidth={400}
+        maxWidth={400}
+        minHeight={550}
+        maxHeight={550}
         maxShadowOpacity={0.5}
         showCover={true}
         mobileScrollSupport={false}
       >
-        <div className="demoPage demopage1">Hi, my name is Vanshika.</div>
-        <div className="demoPage">I am a web developer.</div>
-        <div className="demoPage">I love working with React.js.</div>
-        <div className="demoPage">I enjoy creating interactive UIs.</div>
+        <div className="demoPage demopage3"><div className="demopage1">Vanshika <br></br>Projects</div></div>
+        <div className="demoPage demopage1">I am a web developer.</div>
+        <div className="demoPage demopage1">I love working with React.js.</div>
+        <div className="demoPage demopage1">I enjoy creating interactive UIs.</div>
       </HTMLFlipBook>
     </div>
   );
