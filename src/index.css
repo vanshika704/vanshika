@@ -145,3 +145,9 @@ height: 120px;
   margin-top: 300px;
   margin-right: 0px;
 }
+.Social{
+  width: 900px;
+  margin-left: 200px;
+  display: flex;
+  margin-top: 150px;
+}
