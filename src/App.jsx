@@ -5,7 +5,7 @@ import About from './pages/about';
 import Skills from './pages/skills';
 import Achievements from './pages/Achievements';
 import Work from './pages/Work';
-import Experience from './pages/Experience';
+
 import Contact from './pages/Contact';
 import Education from './pages/education';
 
@@ -21,7 +21,7 @@ function App() {
         <Route path="/achievements" element={<Achievements />} />
         <Route path="/education" element={<Education />} />
         <Route path="/work" element={<Work />} />
-        <Route path="/experience" element={<Experience />} />
+       
         <Route path="/contact" element={<Contact />} />
       </Routes>
     </Router>
