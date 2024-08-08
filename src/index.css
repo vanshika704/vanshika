@@ -1,17 +1,15 @@
-
-
-
-
 body {
   background: #fff;
   padding: 20px;
 }
+
 .vanta { 
   min-height: 700px;
   color: white;
   padding: 20px;
   font-size: 24px;
 }
+
 .image-container {
   display: flex;
   justify-content: center;
@@ -24,7 +22,7 @@ body {
   height: 400px; 
   width: 400px; 
   transition: transform 0.3s ease;
-  margin-left : 100px;
+  margin-left: 100px;
   margin-top: 0px;
   box-shadow: 0 4px 8px rgba(15, 15, 15, 0.747); 
   margin-bottom: 200px;
@@ -32,8 +30,9 @@ body {
 
 .image-container img:hover {
   transform: translateY(-20px);
-  box-shadow: 0 8px 16px rgb(24, 23, 23); /* Darken the shadow on hover */
+  box-shadow: 0 8px 16px rgb(24, 23, 23);
 }
+
 .glass-navbar {
   background: rgba(13, 18, 71, 0);
   backdrop-filter: blur(10px);
@@ -42,33 +41,32 @@ body {
   width: 100%;
   top: 0;
   z-index: 1000;
-  
 }
 
 .navbar-nav .nav-link {
-  color: #000; /* Default link color */
+  color: #000;
   transition: color 0.3s;
-  font-family: 'Poppins', sans-serif; ;
-
+  font-family: 'Poppins', sans-serif;
 }
-.navbar-nav{
+
+.navbar-nav {
   margin-left: 700px;
   font-weight: bold;
 }
 
-.icons{
+.icons {
   display: flex;
   margin-left: 10px;
 }
+
 .navbar-nav .nav-link:hover {
-  color: #1b2057; /* Color on hover, e.g., Tomato */
+  color: #1b2057;
 }
 
 .navbar-nav .nav-link.active {
-  font-weight: bold; /* Optional: make the active link bold */
+  font-weight: bold;
   color: #000;
 }
-
 
 .nav-link {
   transition: background 0.3s ease, color 0.3s ease;
@@ -76,11 +74,11 @@ body {
   border-radius: 5px;
 }
 
-
 .nav-link:hover {
   background: rgba(85, 222, 240, 0.425);
   color: black !important;
 }
+
 .poppins-medium {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
@@ -98,61 +96,69 @@ body {
   font-weight: 700;
   font-style: normal;
 }
-.text{font-family: 'Poppins', sans-serif;
-  font-size: 44px;
-margin-bottom: 50px;
-margin-left: 50px;
-width: 700px;
-margin-top: 50px;}
 
-.center{
+.text {
+  font-family: 'Poppins', sans-serif;
+  font-size: 44px;
+  margin-bottom: 50px;
+  margin-left: 50px;
+  width: 700px;
+  margin-top: 50px;
+}
+
+.center {
   display: flex;
   margin-top: 80px;
   width: 1350px;
   margin-left: 50px;
- 
 }
-.developer{
-  display: Flex;
+
+.developer {
+  display: flex;
   height: 10;
 }
-.icon{
-  margin-left: 5px;
- margin-bottom: 10px;
-height: 120px;
 
-  
+.icon {
+  margin-left: 5px;
+  margin-bottom: 10px;
+  height: 120px;
 }
-.resume{
+
+.resume {
   margin-left: 10px;
 }
-.card1{
+
+.card1 {
   margin-left: 200px;
   margin-top: 70px;
   height: 300px;
   width: 900px;
 }
-.text1{
+
+.text1 {
   margin-left: 300px;
   font-size: 54px;
 }
-.button-container{
+
+.button-container {
   margin-top: 0px;
   margin-bottom: 300px;
 }
-.box{
+
+.box {
   margin-left: 300px;
   margin-top: 300px;
   margin-right: 0px;
 }
-.Social{
+
+.Social {
   width: 900px;
   margin-left: 200px;
   display: flex;
   margin-top: 150px;
 }
-/* src/index.css */
 
+/* src/index.css */
 
 .page {
   display: flex;
@@ -167,8 +173,9 @@ height: 120px;
   font-size: 18px;
   text-align: center;
 }
+
 /* src/components/ui/MyBook.css */
-/* src/components/ui/MyBook.css */
+
 .bookContainer {
   display: flex;
   justify-content: center;
@@ -187,35 +194,141 @@ height: 120px;
   align-items: center;
   height: 100%;
   width: 100%;
-  border: 1px solid #ddd; /* Optional: add borders to mimic book pages */
+  border: 1px solid #ddd;
 }
-.demopage1{
-  background-image: url("src/assets/wow2.jpg");
- /* Use relative path if needed */
-  background-size: cover; /* Ensures the image covers the entire element */
-  background-position: center; /* Centers the image within the element */
-  background-repeat: no-repeat; /* Prevents image from repeating */
-  color: rgb(249, 246, 246);
 
-}
-.demopage2{
-  background-image: url("src/assets/wow.jpg");
- /* Use relative path if needed */
-  background-size: cover; /* Ensures the image covers the entire element */
-  background-position: center; /* Centers the image within the element */
-  background-repeat: no-repeat; /* Prevents image from repeating */
+.demopage1, .demopage2, .demopage3 {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   color: rgb(249, 246, 246);
-  
 }
-.demopage3{
-  background-image: url("src/assets/wow.jpg");
- /* Use relative path if needed */
-  background-size: cover; /* Ensures the image covers the entire element */
-  background-position: center; /* Centers the image within the element */
-  background-repeat: no-repeat; /* Prevents image from repeating */
-  color: rgb(249, 246, 246);
-  
-}
-.Projectgrid{
+
+.Projectgrid {
   display: inline;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 1200px) {
+  .image-container img {
+    height: 300px;
+    width: 300px;
+    margin-left: 100px;
+  }
+
+  .text {
+    font-size: 36px;
+    width: 600px;
+  }
+
+  .center {
+    width: 1000px;
+  }
+
+  .card1 {
+    width: 700px;
+  }
+
+  .text1 {
+    margin-left: 200px;
+    font-size: 44px;
+  }
+
+  .box {
+    margin-left: 200px;
+    margin-top: 200px;
+  }
+
+  .Social {
+    width: 700px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .image-container img {
+    height: 250px;
+    width: 250px;
+   
+    margin-bottom: 150px;
+    margin-left: 40px;
+  }
+
+  .text {
+    font-size: 28px;
+    width: 500px;
+    margin-left: 20px;
+  }
+
+  .center {
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    margin-left: 20px;
+  }
+
+  .card1 {
+    margin-left: 50px;
+    width: 500px;
+  }
+
+  .text1 {
+    margin-left: 100px;
+    font-size: 36px;
+  }
+
+  .box {
+    margin-left: 100px;
+    margin-top: 150px;
+  }
+
+  .Social {
+    width: 500px;
+    margin-left: 50px;
+  }
+
+  .navbar-nav {
+    margin-left: 0px;
+  }
+
+  .icons {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .image-container img {
+    height: 50px;
+    width: 50px;
+    margin-left: 0px;
+  }
+
+  .text {
+    font-size: 24px;
+    width: 100%;
+    margin-left: 10px;
+  }
+
+  .center {
+    width: 100%;
+  }
+
+  .card1 {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .text1 {
+    font-size: 30px;
+    margin-left: 50px;
+  }
+
+  .box {
+    margin-left: 50px;
+    margin-top: 100px;
+  }
+
+  .Social {
+    width: 100%;
+    margin-left: 0;
+  }
 }
