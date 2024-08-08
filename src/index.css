@@ -197,12 +197,26 @@ body {
   border: 1px solid #ddd;
 }
 
-.demopage1, .demopage2, .demopage3 {
+.demopage1{
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   color: rgb(249, 246, 246);
+  
 }
+ .demopage2{
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: rgb(249, 246, 246);
+ }
+
+ .demopage3{
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: rgb(249, 246, 246);
+ }
 
 .Projectgrid {
   display: inline;
