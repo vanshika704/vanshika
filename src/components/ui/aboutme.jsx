@@ -1,13 +1,57 @@
 // src/components/ui/aboutme.js
-import HTMLFlipBook from "react-pageflip";
+// import HTMLFlipBook from "react-pageflip";
  // Make sure to import the CSS file for styling
+ import { Grid, GridItem } from '@chakra-ui/react'
 
-function MyBook() {
-  return (
-    <div className="bookContainer">
-      <HTMLFlipBook
+
+
+ function MyBook() {
+   return (
+     <div className='Projectgrid'>
+      <Grid
+  h='400px'
+  templateRows='repeat(2, 1fr)'
+  templateColumns='repeat(5, 1fr)'
+  gap={4}
+  marginTop={150}
+  marginLeft={200}
+  marginRight={200}
+>
+  <GridItem rowSpan={2} colSpan={1} bg='tomato' />
+  <GridItem colSpan={2} bg='papayawhip' />
+  <GridItem colSpan={2} bg='papayawhip' />
+  <GridItem colSpan={2} bg='tomato' />
+  <GridItem colSpan={2} bg='papayawhip' />
+</Grid>
+
+
+<Grid
+  h='400px'
+  templateRows='repeat(2, 1fr)'
+  templateColumns='repeat(5, 1fr)'
+  gap={4}
+  marginTop={150}
+  marginLeft={200}
+  marginRight={200}
+>
+  <GridItem rowSpan={2} colSpan={1} bg='tomato' />
+  <GridItem colSpan={2} bg='papayawhip' />
+  <GridItem colSpan={2} bg='papayawhip' />
+  <GridItem colSpan={2} bg='tomato' />
+  <GridItem colSpan={2} bg='papayawhip' />
+</Grid>
+     </div>
+   );
+ }
+ 
+ export default MyBook;
+ 
+
+
+  {/* <div className="bookContainer"> */}
+      {/* <HTMLFlipBook
         width={400} // Increased width
-        height={550} // Increased height
+        height={250} // Increased height
         size="stretch"
         minWidth={400}
         maxWidth={400}
@@ -22,8 +66,7 @@ function MyBook() {
         <div className="demoPage demopage1">I love working with React.js.</div>
         <div className="demoPage demopage1">I enjoy creating interactive UIs.</div>
       </HTMLFlipBook>
-    </div>
-  );
-}
+    </div> */}
 
-export default MyBook;
+
+
