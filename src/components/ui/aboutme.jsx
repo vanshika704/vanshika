@@ -15,7 +15,7 @@ function MyBook() {
         <GridItem 
           rowSpan={{ base: 1, sm: 2, md: 2 }} 
           colSpan={{ base: 2, sm: 3, md: 1 }} 
-          bg='rgba(64, 64, 64, 0.5)' bgImage="url('/src/assets/Untitled design (9).png')" // Update the bgImage prop
+          bg='rgba(255, 255, 255, 0.5)'// Update the bgImage prop
           bgSize="cover" // Ensure the image covers the entire area
           bgPosition="center" // Center the background image
           bgRepeat="no-repeat"
@@ -42,7 +42,7 @@ function MyBook() {
             </HTMLFlipBook>
           </div>
         </GridItem>
-        <GridItem colSpan={{ base: 2, sm: 3, md: 2 }} bg='rgba(64, 64, 64, 0.5)' bgImage="url('/src/assets/Untitled design (10).png')" // Update the bgImage prop
+        <GridItem colSpan={{ base: 2, sm: 3, md: 2 }} bg='rgba(255, 255, 255, 0.5)' // Update the bgImage prop
   bgSize="cover" // Ensure the image covers the entire area
   bgPosition="center" // Center the background image
   bgRepeat="no-repeat"
@@ -74,7 +74,7 @@ function MyBook() {
               <div className="demoPage demopage4"> <img className="gridimage"  src="src/assets/foresthill/Screenshot (87).png" height="280px"></img></div>
             </HTMLFlipBook>
           </div></GridItem>
-          <GridItem colSpan={{ base: 2, sm: 3, md: 2 }}  bg='rgba(64, 64, 64, 0.5)'  bgImage="url('/src/assets/Untitled design (11).png')" // Update the bgImage prop
+          <GridItem colSpan={{ base: 2, sm: 3, md: 2 }}  bg='rgba(255, 255, 255, 0.5)' // Update the bgImage prop
   bgSize="cover" // Ensure the image covers the entire area
   bgPosition="center" // Center the background image
   bgRepeat="no-repeat"
@@ -99,7 +99,7 @@ function MyBook() {
               <div className="demoPage demopage1">   <img src = "src/assets/pratishtha/Screenshot (58).png" className="gridimage"></img></div>
             </HTMLFlipBook>
           </div></GridItem>
-          <GridItem colSpan={{ base: 2, sm: 3, md: 2 }}  bg='rgba(64, 64, 64, 0.5)' bgImage="url('/src/assets/Untitled design.png')" // Update the bgImage prop
+          <GridItem colSpan={{ base: 2, sm: 3, md: 2 }}  bg='rgba(255, 255, 255, 0.5)' // Update the bgImage prop
   bgSize="cover" // Ensure the image covers the entire area
   bgPosition="center" // Center the background image
   bgRepeat="no-repeat"
@@ -118,7 +118,7 @@ function MyBook() {
              <div className="demoPage demopage1"> <img className="gridimage" src="src/assets/gdscweather/Screenshot (91).png" height="400px"></img></div>
             </HTMLFlipBook>
           </div></GridItem>
-          <GridItem colSpan={{ base: 2, sm: 3, md: 2 }}  bg='rgba(64, 64, 64, 0.5)' bgImage="url('/src/assets/Untitled design (12).png')" // Update the bgImage prop
+          <GridItem colSpan={{ base: 2, sm: 3, md: 2 }}  bg='rgba(255, 255, 255, 0.5)'  // Update the bgImage prop
   bgSize="cover" // Ensure the image covers the entire area
   bgPosition="center" // Center the background image
   bgRepeat="no-repeat"
@@ -151,7 +151,7 @@ function MyBook() {
         <GridItem 
           rowSpan={{ base: 1, sm: 2, md: 2 }} 
           colSpan={{ base: 2, sm: 3, md: 1 }} 
-          bg='rgba(64, 64, 64, 0.5)' bgImage="url('/src/assets/Untitled design.png')" // Update the bgImage prop
+          bg='rgba(255, 255, 255, 0.5)'// Update the bgImage prop
           bgSize="cover" // Ensure the image covers the entire area
           bgPosition="center" // Center the background image
           bgRepeat="no-repeat"
@@ -163,7 +163,24 @@ function MyBook() {
         > <div style={{ width: '100%', height: '100%' }}><div className="demoPage demopage1"> <img className="gridimage1" src="src/assets/all/Screenshot_2024-08-08-20-15-06-51_000775a16687df9cd9dc66211acfb8da.jpg" height="400px"></img></div>
        
       </div></GridItem>
-        <GridItem colSpan={{ base: 2, sm: 3, md: 2 }}  bg='rgba(64, 64, 64, 0.5)' bgImage="url('/src/assets/Untitled design.png')" // Update the bgImage prop
+        <GridItem colSpan={{ base: 2, sm: 3, md: 2 }}  bg='rgba(255, 255, 255, 0.5)'  // Update the bgImage prop
+  bgSize="cover" // Ensure the image covers the entire area
+  bgPosition="center" // Center the background image
+  bgRepeat="no-repeat"
+ ><div style={{ width: '100%', height: '100%' }}>
+            <HTMLFlipBook
+              width={300} // Define fixed width
+              height={280} // Define fixed height
+              size="stretch"
+              maxShadowOpacity={0.5}
+              showCover={true}
+              mobileScrollSupport={false}
+            >
+            <div className="demoPage demopage1"> <img className="gridimage" src="src/assets/todo/Screenshot (72).png" height="400px"></img></div>
+            <div className="demoPage demopage1"> <img className="gridimage" src="src/assets/todo/Screenshot (71).png" height="400px"></img></div>
+            </HTMLFlipBook>
+          </div></GridItem>
+        <GridItem colSpan={{ base: 2, sm: 3, md: 2 }}  bg='rgba(255, 255, 255, 0.5)' // Update the bgImage prop
   bgSize="cover" // Ensure the image covers the entire area
   bgPosition="center" // Center the background image
   bgRepeat="no-repeat"
@@ -184,7 +201,7 @@ function MyBook() {
               <div className="demoPage demopage4">I enjoy creating interactive UIs.</div>
             </HTMLFlipBook>
           </div></GridItem>
-        <GridItem colSpan={{ base: 2, sm: 3, md: 2 }}  bg='rgba(64, 64, 64, 0.5)' bgImage="url('/src/assets/Untitled design.png')" // Update the bgImage prop
+        <GridItem colSpan={{ base: 2, sm: 3, md: 2 }}  bg='rgba(255, 255, 255, 0.5)'// Update the bgImage prop
   bgSize="cover" // Ensure the image covers the entire area
   bgPosition="center" // Center the background image
   bgRepeat="no-repeat"
@@ -205,28 +222,7 @@ function MyBook() {
               <div className="demoPage demopage4">I enjoy creating interactive UIs.</div>
             </HTMLFlipBook>
           </div></GridItem>
-        <GridItem colSpan={{ base: 2, sm: 3, md: 2 }}  bg='rgba(64, 64, 64, 0.5)' bgImage="url('/src/assets/Untitled design.png')" // Update the bgImage prop
-  bgSize="cover" // Ensure the image covers the entire area
-  bgPosition="center" // Center the background image
-  bgRepeat="no-repeat"
- ><div style={{ width: '100%', height: '100%' }}>
-            <HTMLFlipBook
-              width={300} // Define fixed width
-              height={280} // Define fixed height
-              size="stretch"
-              maxShadowOpacity={0.5}
-              showCover={true}
-              mobileScrollSupport={false}
-            >
-              <div className="demoPage demopage3">
-                <div>Vanshika <br />Projects</div>
-              </div>
-              <div className="demoPage demopage1">I am a web developer.</div>
-              <div className="demoPage demopage2">I love working with React.js.</div>
-              <div className="demoPage demopage4">I enjoy creating interactive UIs.</div>
-            </HTMLFlipBook>
-          </div></GridItem>
-        <GridItem colSpan={{ base: 2, sm: 3, md: 2 }} bg='rgba(64, 64, 64, 0.5)' bgImage="url('/src/assets/Untitled design.png')" // Update the bgImage prop
+        <GridItem colSpan={{ base: 2, sm: 3, md: 2 }} bg='rgba(255, 255, 255, 0.5)'  // Update the bgImage prop
   bgSize="cover" // Ensure the image covers the entire area
   bgPosition="center" // Center the background image
   bgRepeat="no-repeat"
