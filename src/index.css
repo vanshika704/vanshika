@@ -221,6 +221,12 @@ body {
 .Projectgrid {
   display: inline;
 }
+.gridimage{
+  height: 260px;
+}
+.gridimage1{
+  height: 550px;
+}
 
 /* Responsive Design */
 @media screen and (max-width: 1200px) {
