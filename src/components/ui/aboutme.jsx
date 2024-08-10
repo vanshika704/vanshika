@@ -15,7 +15,11 @@ function MyBook() {
         <GridItem 
           rowSpan={{ base: 1, sm: 2, md: 2 }} 
           colSpan={{ base: 2, sm: 3, md: 1 }} 
-         bg='rgba(255, 239, 213, 0.3)'
+          bg='rgba(64, 64, 64, 0.5)' bgImage="url('/src/assets/Untitled design.png')" // Update the bgImage prop
+          bgSize="cover" // Ensure the image covers the entire area
+          bgPosition="center" // Center the background image
+          bgRepeat="no-repeat"
+
           display="flex" 
           alignItems="center" 
           justifyContent="center"
@@ -38,7 +42,11 @@ function MyBook() {
             </HTMLFlipBook>
           </div>
         </GridItem>
-        <GridItem colSpan={{ base: 2, sm: 3, md: 2 }}  bg='rgba(255, 239, 213, 0.3)'> <div style={{ width: '100%', height: '100%' }}>
+        <GridItem colSpan={{ base: 2, sm: 3, md: 2 }} bg='rgba(64, 64, 64, 0.5)' bgImage="url('/src/assets/Untitled design.png')" // Update the bgImage prop
+  bgSize="cover" // Ensure the image covers the entire area
+  bgPosition="center" // Center the background image
+  bgRepeat="no-repeat"
+        > <div style={{ width: '100%', height: '100%' }}>
             <HTMLFlipBook
               width={300} // Define fixed width
               height={280} // Define fixed height
@@ -66,7 +74,11 @@ function MyBook() {
               <div className="demoPage demopage4"> <img className="gridimage"  src="src/assets/foresthill/Screenshot (87).png" height="280px"></img></div>
             </HTMLFlipBook>
           </div></GridItem>
-          <GridItem colSpan={{ base: 2, sm: 3, md: 2 }}  bg='rgba(255, 239, 213, 0.3)'> <div style={{ width: '100%', height: '100%' }}>
+          <GridItem colSpan={{ base: 2, sm: 3, md: 2 }}  bg='rgba(64, 64, 64, 0.5)'  bgImage="url('/src/assets/Untitled design.png')" // Update the bgImage prop
+  bgSize="cover" // Ensure the image covers the entire area
+  bgPosition="center" // Center the background image
+  bgRepeat="no-repeat"
+          > <div style={{ width: '100%', height: '100%' }}>
             <HTMLFlipBook
               width={300} // Define fixed width
               height={280} // Define fixed height
@@ -87,7 +99,11 @@ function MyBook() {
               <div className="demoPage demopage1">   <img src = "src/assets/pratishtha/Screenshot (58).png" className="gridimage"></img></div>
             </HTMLFlipBook>
           </div></GridItem>
-          <GridItem colSpan={{ base: 2, sm: 3, md: 2 }}  bg='rgba(255, 239, 213, 0.3)'> <div style={{ width: '100%', height: '100%' }}>
+          <GridItem colSpan={{ base: 2, sm: 3, md: 2 }}  bg='rgba(64, 64, 64, 0.5)' bgImage="url('/src/assets/Untitled design.png')" // Update the bgImage prop
+  bgSize="cover" // Ensure the image covers the entire area
+  bgPosition="center" // Center the background image
+  bgRepeat="no-repeat"
+          > <div style={{ width: '100%', height: '100%' }}>
             <HTMLFlipBook
               width={300} // Define fixed width
               height={280} // Define fixed height
@@ -102,7 +118,11 @@ function MyBook() {
              <div className="demoPage demopage1"> <img className="gridimage" src="src/assets/gdscweather/Screenshot (91).png" height="400px"></img></div>
             </HTMLFlipBook>
           </div></GridItem>
-          <GridItem colSpan={{ base: 2, sm: 3, md: 2 }}  bg='rgba(255, 239, 213, 0.3)'> <div style={{ width: '100%', height: '100%' }}>
+          <GridItem colSpan={{ base: 2, sm: 3, md: 2 }}  bg='rgba(64, 64, 64, 0.5)' bgImage="url('/src/assets/Untitled design.png')" // Update the bgImage prop
+  bgSize="cover" // Ensure the image covers the entire area
+  bgPosition="center" // Center the background image
+  bgRepeat="no-repeat"
+          > <div style={{ width: '100%', height: '100%' }}>
             <HTMLFlipBook
               width={300} // Define fixed width
               height={280} // Define fixed height
@@ -111,12 +131,11 @@ function MyBook() {
               showCover={true}
               mobileScrollSupport={false}
             >
-              <div className="demoPage demopage3">
-                <div>Vanshika <br />Projects</div>
-              </div>
-              <div className="demoPage demopage1">I am a web developer.</div>
-              <div className="demoPage demopage2">I love working with React.js.</div>
-              <div className="demoPage demopage4">I enjoy creating interactive UIs.</div>
+             <div className="demoPage demopage1"> <img className="gridimage" src="src/assets/exponentially/Screenshot (59).png" height="400px"></img></div>
+             <div className="demoPage demopage1"> <img className="gridimage" src="src/assets/exponentially/Screenshot (60).png" height="400px"></img></div>
+             <div className="demoPage demopage1"> <img className="gridimage" src="src/assets/exponentially/Screenshot (61).png" height="400px"></img></div>
+             <div className="demoPage demopage1"> <img className="gridimage" src="src/assets/exponentially/Screenshot (62).png" height="400px"></img></div>
+             <div className="demoPage demopage1"> <img className="gridimage" src="src/assets/exponentially/Screenshot (63).png" height="400px"></img></div>
             </HTMLFlipBook>
           </div></GridItem>
       </Grid>
@@ -126,35 +145,29 @@ function MyBook() {
         templateRows={{ base: 'repeat(5, 1fr)', sm: 'repeat(4, 1fr)', md: 'repeat(3, 1fr)', lg: 'repeat(2, 1fr)' }}
         templateColumns={{ base: 'repeat(2, 1fr)', sm: 'repeat(3, 1fr)', md: 'repeat(4, 1fr)', lg: 'repeat(5, 1fr)' }}
         gap={2}
-        marginTop={{ base: '10px', sm: '20px', md: '30px', lg: '50px' }}
+        marginTop={{ base: '10px', sm: '20px', md: '30px', lg: '100px' }}
         marginX={{ base: '5px', sm: '10px', md: '20px', lg: '30px' }}
       >
         <GridItem 
           rowSpan={{ base: 1, sm: 2, md: 2 }} 
           colSpan={{ base: 2, sm: 3, md: 1 }} 
-          bg='rgba(255, 239, 213, 0.3)' 
+          bg='rgba(64, 64, 64, 0.5)' bgImage="url('/src/assets/Untitled design.png')" // Update the bgImage prop
+          bgSize="cover" // Ensure the image covers the entire area
+          bgPosition="center" // Center the background image
+          bgRepeat="no-repeat"
+
           display="flex" 
           alignItems="center" 
           justifyContent="center"
           overflow="hidden"
-        > <div style={{ width: '100%', height: '100%' }}>
-        <HTMLFlipBook
-          width={300} // Define fixed width
-          height={1150} // Define fixed height
-          size="stretch"
-          maxShadowOpacity={0.5}
-          showCover={true}
-          mobileScrollSupport={false}
-        >
-          <div className="demoPage demopage3">
-            <div>Vanshika <br />Projects</div>
-          </div>
-          <div className="demoPage demopage1">I am a web developer.</div>
-          <div className="demoPage demopage2">I love working with React.js.</div>
-          <div className="demoPage demopage4">I enjoy creating interactive UIs.</div>
-        </HTMLFlipBook>
+        > <div style={{ width: '100%', height: '100%' }}><div className="demoPage demopage1"> <img className="gridimage1" src="src/assets/all/Screenshot_2024-08-08-20-15-06-51_000775a16687df9cd9dc66211acfb8da.jpg" height="400px"></img></div>
+       
       </div></GridItem>
-        <GridItem colSpan={{ base: 2, sm: 3, md: 2 }}  bg='rgba(255, 239, 213, 0.3)' ><div style={{ width: '100%', height: '100%' }}>
+        <GridItem colSpan={{ base: 2, sm: 3, md: 2 }}  bg='rgba(64, 64, 64, 0.5)' bgImage="url('/src/assets/Untitled design.png')" // Update the bgImage prop
+  bgSize="cover" // Ensure the image covers the entire area
+  bgPosition="center" // Center the background image
+  bgRepeat="no-repeat"
+ ><div style={{ width: '100%', height: '100%' }}>
             <HTMLFlipBook
               width={300} // Define fixed width
               height={280} // Define fixed height
@@ -171,7 +184,11 @@ function MyBook() {
               <div className="demoPage demopage4">I enjoy creating interactive UIs.</div>
             </HTMLFlipBook>
           </div></GridItem>
-        <GridItem colSpan={{ base: 2, sm: 3, md: 2 }}  bg='rgba(255, 239, 213, 0.3)' ><div style={{ width: '100%', height: '100%' }}>
+        <GridItem colSpan={{ base: 2, sm: 3, md: 2 }}  bg='rgba(64, 64, 64, 0.5)' bgImage="url('/src/assets/Untitled design.png')" // Update the bgImage prop
+  bgSize="cover" // Ensure the image covers the entire area
+  bgPosition="center" // Center the background image
+  bgRepeat="no-repeat"
+ ><div style={{ width: '100%', height: '100%' }}>
             <HTMLFlipBook
               width={300} // Define fixed width
               height={280} // Define fixed height
@@ -188,7 +205,11 @@ function MyBook() {
               <div className="demoPage demopage4">I enjoy creating interactive UIs.</div>
             </HTMLFlipBook>
           </div></GridItem>
-        <GridItem colSpan={{ base: 2, sm: 3, md: 2 }}  bg='rgba(255, 239, 213, 0.3)' ><div style={{ width: '100%', height: '100%' }}>
+        <GridItem colSpan={{ base: 2, sm: 3, md: 2 }}  bg='rgba(64, 64, 64, 0.5)' bgImage="url('/src/assets/Untitled design.png')" // Update the bgImage prop
+  bgSize="cover" // Ensure the image covers the entire area
+  bgPosition="center" // Center the background image
+  bgRepeat="no-repeat"
+ ><div style={{ width: '100%', height: '100%' }}>
             <HTMLFlipBook
               width={300} // Define fixed width
               height={280} // Define fixed height
@@ -205,7 +226,11 @@ function MyBook() {
               <div className="demoPage demopage4">I enjoy creating interactive UIs.</div>
             </HTMLFlipBook>
           </div></GridItem>
-        <GridItem colSpan={{ base: 2, sm: 3, md: 2 }} bg='rgba(255, 239, 213, 0.3)' ><div style={{ width: '100%', height: '100%' }}>
+        <GridItem colSpan={{ base: 2, sm: 3, md: 2 }} bg='rgba(64, 64, 64, 0.5)' bgImage="url('/src/assets/Untitled design.png')" // Update the bgImage prop
+  bgSize="cover" // Ensure the image covers the entire area
+  bgPosition="center" // Center the background image
+  bgRepeat="no-repeat"
+ ><div style={{ width: '100%', height: '100%' }}>
             <HTMLFlipBook
               width={300} // Define fixed width
               height={280} // Define fixed height

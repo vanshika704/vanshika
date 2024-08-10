@@ -223,6 +223,9 @@ body {
 }
 .gridimage{
   height: 260px;
+  background-image: url("src/assets/Untitled design.png");
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 .gridimage1{
   height: 550px;
