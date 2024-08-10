@@ -75,9 +75,9 @@ function MyBook() {
             </HTMLFlipBook>
           </div></GridItem>
           <GridItem colSpan={{ base: 2, sm: 3, md: 2 }}  bg='rgba(255, 255, 255, 0.5)' // Update the bgImage prop
-  bgSize="cover" // Ensure the image covers the entire area
-  bgPosition="center" // Center the background image
-  bgRepeat="no-repeat"
+          bgSize="cover" // Ensure the image covers the entire area
+          bgPosition="center" // Center the background image
+          bgRepeat="no-repeat"
           > <div style={{ width: '100%', height: '100%' }}>
             <HTMLFlipBook
               width={300} // Define fixed width
@@ -100,9 +100,9 @@ function MyBook() {
             </HTMLFlipBook>
           </div></GridItem>
           <GridItem colSpan={{ base: 2, sm: 3, md: 2 }}  bg='rgba(255, 255, 255, 0.5)' // Update the bgImage prop
-  bgSize="cover" // Ensure the image covers the entire area
-  bgPosition="center" // Center the background image
-  bgRepeat="no-repeat"
+          bgSize="cover" // Ensure the image covers the entire area
+          bgPosition="center" // Center the background image
+          bgRepeat="no-repeat"
           > <div style={{ width: '100%', height: '100%' }}>
             <HTMLFlipBook
               width={300} // Define fixed width
@@ -193,12 +193,11 @@ function MyBook() {
               showCover={true}
               mobileScrollSupport={false}
             >
-              <div className="demoPage demopage3">
-                <div>Vanshika <br />Projects</div>
-              </div>
-              <div className="demoPage demopage1">I am a web developer.</div>
-              <div className="demoPage demopage2">I love working with React.js.</div>
-              <div className="demoPage demopage4">I enjoy creating interactive UIs.</div>
+              <div className="demoPage demopage1"> <img className="gridimage" src="src/assets/social media/Screenshot (65).png" height="400px"></img></div>
+              <div className="demoPage demopage1"> <img className="gridimage" src="src/assets/social media/Screenshot (66).png" height="400px"></img></div>
+              <div className="demoPage demopage1"> <img className="gridimage" src="src/assets/social media/Screenshot (67).png" height="400px"></img></div>
+              <div className="demoPage demopage1"> <img className="gridimage" src="src/assets/social media/Screenshot (68).png" height="400px"></img></div>
+              <div className="demoPage demopage1"> <img className="gridimage" src="src/assets/social media/Screenshot (69).png" height="400px"></img></div>
             </HTMLFlipBook>
           </div></GridItem>
         <GridItem colSpan={{ base: 2, sm: 3, md: 2 }}  bg='rgba(255, 255, 255, 0.5)'// Update the bgImage prop
@@ -214,12 +213,7 @@ function MyBook() {
               showCover={true}
               mobileScrollSupport={false}
             >
-              <div className="demoPage demopage3">
-                <div>Vanshika <br />Projects</div>
-              </div>
-              <div className="demoPage demopage1">I am a web developer.</div>
-              <div className="demoPage demopage2">I love working with React.js.</div>
-              <div className="demoPage demopage4">I enjoy creating interactive UIs.</div>
+              <div className="demoPage demopage1"> <img className="gridimage" src="src/assets/social media/Screenshot (69).png" height="400px"></img></div>
             </HTMLFlipBook>
           </div></GridItem>
         <GridItem colSpan={{ base: 2, sm: 3, md: 2 }} bg='rgba(255, 255, 255, 0.5)'  // Update the bgImage prop
