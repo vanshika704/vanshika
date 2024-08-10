@@ -15,7 +15,7 @@ function MyBook() {
         <GridItem 
           rowSpan={{ base: 1, sm: 2, md: 2 }} 
           colSpan={{ base: 2, sm: 3, md: 1 }} 
-          bg='rgba(64, 64, 64, 0.5)' bgImage="url('/src/assets/Untitled design.png')" // Update the bgImage prop
+          bg='rgba(64, 64, 64, 0.5)' bgImage="url('/src/assets/Untitled design (9).png')" // Update the bgImage prop
           bgSize="cover" // Ensure the image covers the entire area
           bgPosition="center" // Center the background image
           bgRepeat="no-repeat"
@@ -42,7 +42,7 @@ function MyBook() {
             </HTMLFlipBook>
           </div>
         </GridItem>
-        <GridItem colSpan={{ base: 2, sm: 3, md: 2 }} bg='rgba(64, 64, 64, 0.5)' bgImage="url('/src/assets/Untitled design.png')" // Update the bgImage prop
+        <GridItem colSpan={{ base: 2, sm: 3, md: 2 }} bg='rgba(64, 64, 64, 0.5)' bgImage="url('/src/assets/Untitled design (10).png')" // Update the bgImage prop
   bgSize="cover" // Ensure the image covers the entire area
   bgPosition="center" // Center the background image
   bgRepeat="no-repeat"
@@ -74,7 +74,7 @@ function MyBook() {
               <div className="demoPage demopage4"> <img className="gridimage"  src="src/assets/foresthill/Screenshot (87).png" height="280px"></img></div>
             </HTMLFlipBook>
           </div></GridItem>
-          <GridItem colSpan={{ base: 2, sm: 3, md: 2 }}  bg='rgba(64, 64, 64, 0.5)'  bgImage="url('/src/assets/Untitled design.png')" // Update the bgImage prop
+          <GridItem colSpan={{ base: 2, sm: 3, md: 2 }}  bg='rgba(64, 64, 64, 0.5)'  bgImage="url('/src/assets/Untitled design (11).png')" // Update the bgImage prop
   bgSize="cover" // Ensure the image covers the entire area
   bgPosition="center" // Center the background image
   bgRepeat="no-repeat"
@@ -118,7 +118,7 @@ function MyBook() {
              <div className="demoPage demopage1"> <img className="gridimage" src="src/assets/gdscweather/Screenshot (91).png" height="400px"></img></div>
             </HTMLFlipBook>
           </div></GridItem>
-          <GridItem colSpan={{ base: 2, sm: 3, md: 2 }}  bg='rgba(64, 64, 64, 0.5)' bgImage="url('/src/assets/Untitled design.png')" // Update the bgImage prop
+          <GridItem colSpan={{ base: 2, sm: 3, md: 2 }}  bg='rgba(64, 64, 64, 0.5)' bgImage="url('/src/assets/Untitled design (12).png')" // Update the bgImage prop
   bgSize="cover" // Ensure the image covers the entire area
   bgPosition="center" // Center the background image
   bgRepeat="no-repeat"
