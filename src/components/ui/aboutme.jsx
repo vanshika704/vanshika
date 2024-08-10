@@ -15,7 +15,7 @@ function MyBook() {
         <GridItem 
           rowSpan={{ base: 1, sm: 2, md: 2 }} 
           colSpan={{ base: 2, sm: 3, md: 1 }} 
-          bg='tomato' 
+          bg='papayawhip' 
           display="flex" 
           alignItems="center" 
           justifyContent="center"
@@ -33,7 +33,7 @@ function MyBook() {
               <div className="demoPage demopage3">
                 <div>Vanshika <br />Projects</div>
               </div>
-              <div className="demoPage demopage1">I am a web developer.</div>
+              <div className="demoPage demopage1"></div>
               <div className="demoPage demopage2">I love working with React.js.</div>
               <div className="demoPage demopage4">I enjoy creating interactive UIs.</div>
             </HTMLFlipBook>
@@ -49,11 +49,22 @@ function MyBook() {
               mobileScrollSupport={false}
             >
               <div className="demoPage demopage3">
-                <div>Vanshika <br />Projects</div>
+              <img src="src/assets/foresthill/Screenshot (73).png" height="280px"></img>
               </div>
-              <div className="demoPage demopage1">I am a web developer.</div>
-              <div className="demoPage demopage2">I love working with React.js.</div>
-              <div className="demoPage demopage4">I enjoy creating interactive UIs.</div>
+              <div className="demoPage demopage1"> <img src="src/assets/foresthill/Screenshot (74).png" height="280px"></img></div>
+              <div className="demoPage demopage2"> <img src="src/assets/foresthill/Screenshot (75).png" height="280px"></img></div>
+              <div className="demoPage demopage4"> <img src="src/assets/foresthill/Screenshot (76).png" height="280px"></img></div>
+              <div className="demoPage demopage4"> <img src="src/assets/foresthill/Screenshot (77).png" height="280px"></img></div>
+              <div className="demoPage demopage4"> <img src="src/assets/foresthill/Screenshot (78).png" height="280px"></img></div>
+              <div className="demoPage demopage4"> <img src="src/assets/foresthill/Screenshot (79).png" height="280px"></img></div>
+              <div className="demoPage demopage4"> <img src="src/assets/foresthill/Screenshot (80).png" height="280px"></img></div>
+              <div className="demoPage demopage4"> <img src="src/assets/foresthill/Screenshot (81).png" height="280px"></img></div>
+              <div className="demoPage demopage4"> <img src="src/assets/foresthill/Screenshot (82).png" height="280px"></img></div>
+              <div className="demoPage demopage4"> <img src="src/assets/foresthill/Screenshot (83).png" height="280px"></img></div>
+              <div className="demoPage demopage4"> <img src="src/assets/foresthill/Screenshot (84).png" height="280px"></img></div>
+              <div className="demoPage demopage4"> <img src="src/assets/foresthill/Screenshot (85).png" height="280px"></img></div>
+              <div className="demoPage demopage4"> <img src="src/assets/foresthill/Screenshot (86).png" height="280px"></img></div>
+              <div className="demoPage demopage4"> <img src="src/assets/foresthill/Screenshot (87).png" height="280px"></img></div>
             </HTMLFlipBook>
           </div></GridItem>
           <GridItem colSpan={{ base: 2, sm: 3, md: 2 }} bg='papayawhip'> <div style={{ width: '100%', height: '100%' }}>
@@ -120,16 +131,96 @@ function MyBook() {
         <GridItem 
           rowSpan={{ base: 1, sm: 2, md: 2 }} 
           colSpan={{ base: 2, sm: 3, md: 1 }} 
-          bg='tomato' 
+          bg='papayawhip' 
           display="flex" 
           alignItems="center" 
           justifyContent="center"
           overflow="hidden"
-        />
-        <GridItem colSpan={{ base: 2, sm: 3, md: 2 }} bg='papayawhip' />
-        <GridItem colSpan={{ base: 2, sm: 3, md: 2 }} bg='papayawhip' />
-        <GridItem colSpan={{ base: 2, sm: 3, md: 2 }} bg='tomato' />
-        <GridItem colSpan={{ base: 2, sm: 3, md: 2 }} bg='papayawhip' />
+        > <div style={{ width: '100%', height: '100%' }}>
+        <HTMLFlipBook
+          width={300} // Define fixed width
+          height={1150} // Define fixed height
+          size="stretch"
+          maxShadowOpacity={0.5}
+          showCover={true}
+          mobileScrollSupport={false}
+        >
+          <div className="demoPage demopage3">
+            <div>Vanshika <br />Projects</div>
+          </div>
+          <div className="demoPage demopage1">I am a web developer.</div>
+          <div className="demoPage demopage2">I love working with React.js.</div>
+          <div className="demoPage demopage4">I enjoy creating interactive UIs.</div>
+        </HTMLFlipBook>
+      </div></GridItem>
+        <GridItem colSpan={{ base: 2, sm: 3, md: 2 }} bg='papayawhip' ><div style={{ width: '100%', height: '100%' }}>
+            <HTMLFlipBook
+              width={300} // Define fixed width
+              height={280} // Define fixed height
+              size="stretch"
+              maxShadowOpacity={0.5}
+              showCover={true}
+              mobileScrollSupport={false}
+            >
+              <div className="demoPage demopage3">
+                <div>Vanshika <br />Projects</div>
+              </div>
+              <div className="demoPage demopage1">I am a web developer.</div>
+              <div className="demoPage demopage2">I love working with React.js.</div>
+              <div className="demoPage demopage4">I enjoy creating interactive UIs.</div>
+            </HTMLFlipBook>
+          </div></GridItem>
+        <GridItem colSpan={{ base: 2, sm: 3, md: 2 }} bg='papayawhip' ><div style={{ width: '100%', height: '100%' }}>
+            <HTMLFlipBook
+              width={300} // Define fixed width
+              height={280} // Define fixed height
+              size="stretch"
+              maxShadowOpacity={0.5}
+              showCover={true}
+              mobileScrollSupport={false}
+            >
+              <div className="demoPage demopage3">
+                <div>Vanshika <br />Projects</div>
+              </div>
+              <div className="demoPage demopage1">I am a web developer.</div>
+              <div className="demoPage demopage2">I love working with React.js.</div>
+              <div className="demoPage demopage4">I enjoy creating interactive UIs.</div>
+            </HTMLFlipBook>
+          </div></GridItem>
+        <GridItem colSpan={{ base: 2, sm: 3, md: 2 }} bg='papayawhip' ><div style={{ width: '100%', height: '100%' }}>
+            <HTMLFlipBook
+              width={300} // Define fixed width
+              height={280} // Define fixed height
+              size="stretch"
+              maxShadowOpacity={0.5}
+              showCover={true}
+              mobileScrollSupport={false}
+            >
+              <div className="demoPage demopage3">
+                <div>Vanshika <br />Projects</div>
+              </div>
+              <div className="demoPage demopage1">I am a web developer.</div>
+              <div className="demoPage demopage2">I love working with React.js.</div>
+              <div className="demoPage demopage4">I enjoy creating interactive UIs.</div>
+            </HTMLFlipBook>
+          </div></GridItem>
+        <GridItem colSpan={{ base: 2, sm: 3, md: 2 }} bg='papayawhip' ><div style={{ width: '100%', height: '100%' }}>
+            <HTMLFlipBook
+              width={300} // Define fixed width
+              height={280} // Define fixed height
+              size="stretch"
+              maxShadowOpacity={0.5}
+              showCover={true}
+              mobileScrollSupport={false}
+            >
+              <div className="demoPage demopage3">
+                <div>Vanshika <br />Projects</div>
+              </div>
+              <div className="demoPage demopage1">I am a web developer.</div>
+              <div className="demoPage demopage2">I love working with React.js.</div>
+              <div className="demoPage demopage4">I enjoy creating interactive UIs.</div>
+            </HTMLFlipBook>
+          </div></GridItem>
       </Grid>
     </div>
   );
