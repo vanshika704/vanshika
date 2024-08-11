@@ -1,4 +1,5 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min.js'; // Import Bootstrap's JavaScript
 import { Link } from 'react-router-dom';
 import '../index.css';
 
@@ -8,7 +9,6 @@ function Navbar() {
       <div className="container-fluid">
         <Link className="navbar-brand d-flex align-items-center" to="/">
           <img src='src/assets/hi.gif' alt="icon" className="d-none d-lg-block" style={{ height: '35px', width: 'auto' }} />
-         
         </Link>
         <button
           className="navbar-toggler"
@@ -41,7 +41,6 @@ function Navbar() {
             <li className="nav-item">
               <Link className="nav-link" to="/work">Work</Link>
             </li>
-           
             <li className="nav-item">
               <Link className="nav-link" to="/contact">Contact</Link>
             </li>
