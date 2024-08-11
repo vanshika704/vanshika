@@ -274,7 +274,9 @@ body {
     width: 700px;
   }
 }
-
+.navbar-nav{
+  margin-left: 500px;
+}
 @media screen and (max-width: 768px) {
   .image-container img {
     height: 250px;
@@ -325,6 +327,7 @@ body {
     flex-direction: column;
   }
 }
+
 
 @media screen and (max-width: 480px) {
   .image-container img {
