@@ -230,6 +230,10 @@ body {
 .gridimage1{
   height: 550px;
 }
+.gridimage2{
+  height: 260px;
+  width: 700px;
+}
 
 /* Responsive Design */
 @media screen and (max-width: 1200px) {
