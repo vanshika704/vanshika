@@ -8,7 +8,7 @@ function Navbar() {
     <nav className="navbar navbar-expand-lg glass-navbar">
       <div className="container-fluid">
         <Link className="navbar-brand d-flex align-items-center" to="/">
-          <img src='src/assets/hi.gif' alt="icon" className="d-none d-lg-block" style={{ height: '35px', width: 'auto' }} />
+          <img src='src/assets/output-onlinegiftools.gif' alt="icon" className="d-none d-lg-block" style={{ height: '35px', width: 'auto' }} />
         </Link>
         <button
           className="navbar-toggler"
