@@ -4,7 +4,8 @@ import Navbar from "../components/navbar";
 import "../index.css"
 import FOG from 'vanta/dist/vanta.fog.min';
 import React from 'react';
-import MyBook from "../components/ui/aboutme"
+
+import Projects from "../components/ui/projects";
 class Work extends React.Component {
     constructor() {
       super();
@@ -48,7 +49,7 @@ class Work extends React.Component {
     render() {
       const style = {
         width: '1420px',
-        height: '1400px',
+        height: '5500px',
         position: 'absolute',
         top: 0,
         left: 0,
@@ -59,7 +60,7 @@ class Work extends React.Component {
       return (
         <div ref={this.vantaRef} style={style}>
           <div><Navbar /></div>
-  <MyBook/>
+ <Projects/>
         </div>
       );
     }
