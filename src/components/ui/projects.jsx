@@ -17,7 +17,7 @@ import { BsThreeDotsVertical } from 'react-icons/bs';
 import { BiLike, BiChat, BiShare } from 'react-icons/bi';
 
 function Projects() {
-  return (<>
+  return (<><div className=''></div>
     <div className="Whatsapp">
       <Card maxW="md">
         <CardHeader>
@@ -27,7 +27,7 @@ function Projects() {
               <Box>
                 <Heading size="sm">Segun Adebayo</Heading>
                 <Text>Creator, Chakra UI</Text>
-              </Box>
+              </Box>̥
             </Flex>
             <IconButton
               variant="ghost"

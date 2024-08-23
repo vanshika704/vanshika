@@ -5,7 +5,8 @@ import "../index.css"
 import FOG from 'vanta/dist/vanta.fog.min';
 import React from 'react';
 
-import Projects from "../components/ui/projects";
+
+import MyBook from "../components/ui/aboutme";
 class Work extends React.Component {
     constructor() {
       super();
@@ -60,7 +61,8 @@ class Work extends React.Component {
       return (
         <div ref={this.vantaRef} style={style}>
           <div><Navbar /></div>
- <Projects/>
+ {/* <Projects/> */}
+ <MyBook/>
         </div>
       );
     }
