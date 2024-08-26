@@ -1,425 +1,111 @@
-
-import {
-  Card,
-  CardHeader,
-  CardBody,
-  CardFooter,
-  Flex,
-  Avatar,
-  Box,
-  Heading,
-  Text,
-  IconButton,
-  Image,
-  Button,
-} from '@chakra-ui/react';
-import { BsThreeDotsVertical } from 'react-icons/bs';
-import { BiLike, BiChat, BiShare } from 'react-icons/bi';
-
-function Projects() {
-  return (<><div className=''></div>
-    <div className="Whatsapp">
-      <Card maxW="md">
-        <CardHeader>
-          <Flex justify="space-between" alignItems="center">
-            <Flex gap="4" alignItems="center" flexWrap="wrap">
-              <Avatar name="Segun Adebayo" src="https://bit.ly/sage-adebayo" />
-              <Box>
-                <Heading size="sm">Segun Adebayo</Heading>
-                <Text>Creator, Chakra UI</Text>
-              </Box>̥
-            </Flex>
-            <IconButton
-              variant="ghost"
-              colorScheme="gray"
-              aria-label="See menu"
-              icon={<BsThreeDotsVertical />}
-            />
-          </Flex>
-        </CardHeader>
-        <CardBody>
-          <Text>
-            With Chakra UI, I wanted to sync the speed of development with the
-            speed of design. I wanted the developer to be just as excited as
-            the designer to create a screen.
-          </Text>
-        </CardBody>
-        <Image
-          objectFit="cover"
-          src="https://images.unsplash.com/photo-1531403009284-440f080d1e12?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"
-          alt="Chakra UI"
-        />
-        <CardFooter
-          justify="space-between"
-          flexWrap="wrap"
-          sx={{
-            '& > button': {
-              minW: '136px',
-            },
-          }}
-        >
-          <Button flex="1" variant="ghost" leftIcon={<BiLike />}>
-            Like
-          </Button>
-          <Button flex="1" variant="ghost" leftIcon={<BiChat />}>
-            Comment
-          </Button>
-          <Button flex="1" variant="ghost" leftIcon={<BiShare />}>
-            Share
-          </Button>
-        </CardFooter>
-      </Card>
-    </div><div className='ForestHill'><Card maxW="md">
-        <CardHeader>
-          <Flex justify="space-between" alignItems="center">
-            <Flex gap="4" alignItems="center" flexWrap="wrap">
-              <Avatar name="Segun Adebayo" src="https://bit.ly/sage-adebayo" />
-              <Box>
-                <Heading size="sm">Segun Adebayo</Heading>
-                <Text>Creator, Chakra UI</Text>
-              </Box>
-            </Flex>
-            <IconButton
-              variant="ghost"
-              colorScheme="gray"
-              aria-label="See menu"
-              icon={<BsThreeDotsVertical />}
-            />
-          </Flex>
-        </CardHeader>
-        <CardBody>
-          <Text>
-            With Chakra UI, I wanted to sync the speed of development with the
-            speed of design. I wanted the developer to be just as excited as
-            the designer to create a screen.
-          </Text>
-        </CardBody>
-        <Image
-          objectFit="cover"
-          src="https://images.unsplash.com/photo-1531403009284-440f080d1e12?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"
-          alt="Chakra UI"
-        />
-        <CardFooter
-          justify="space-between"
-          flexWrap="wrap"
-          sx={{
-            '& > button': {
-              minW: '136px',
-            },
-          }}
-        >
-          <Button flex="1" variant="ghost" leftIcon={<BiLike />}>
-            Like
-          </Button>
-          <Button flex="1" variant="ghost" leftIcon={<BiChat />}>
-            Comment
-          </Button>
-          <Button flex="1" variant="ghost" leftIcon={<BiShare />}>
-            Share
-          </Button>
-        </CardFooter>
-      </Card></div>
-      <div className='Pratishtha'><Card maxW="md">
-        <CardHeader>
-          <Flex justify="space-between" alignItems="center">
-            <Flex gap="4" alignItems="center" flexWrap="wrap">
-              <Avatar name="Segun Adebayo" src="https://bit.ly/sage-adebayo" />
-              <Box>
-                <Heading size="sm">Segun Adebayo</Heading>
-                <Text>Creator, Chakra UI</Text>
-              </Box>
-            </Flex>
-            <IconButton
-              variant="ghost"
-              colorScheme="gray"
-              aria-label="See menu"
-              icon={<BsThreeDotsVertical />}
-            />
-          </Flex>
-        </CardHeader>
-        <CardBody>
-          <Text>
-            With Chakra UI, I wanted to sync the speed of development with the
-            speed of design. I wanted the developer to be just as excited as
-            the designer to create a screen.
-          </Text>
-        </CardBody>
-        <Image
-          objectFit="cover"
-          src="https://images.unsplash.com/photo-1531403009284-440f080d1e12?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"
-          alt="Chakra UI"
-        />
-        <CardFooter
-          justify="space-between"
-          flexWrap="wrap"
-          sx={{
-            '& > button': {
-              minW: '136px',
-            },
-          }}
-        >
-          <Button flex="1" variant="ghost" leftIcon={<BiLike />}>
-            Like
-          </Button>
-          <Button flex="1" variant="ghost" leftIcon={<BiChat />}>
-            Comment
-          </Button>
-          <Button flex="1" variant="ghost" leftIcon={<BiShare />}>
-            Share
-          </Button>
-        </CardFooter>
-      </Card></div>
-      <div className='Gdscweather'><Card maxW="md">
-        <CardHeader>
-          <Flex justify="space-between" alignItems="center">
-            <Flex gap="4" alignItems="center" flexWrap="wrap">
-              <Avatar name="Segun Adebayo" src="https://bit.ly/sage-adebayo" />
-              <Box>
-                <Heading size="sm">Segun Adebayo</Heading>
-                <Text>Creator, Chakra UI</Text>
-              </Box>
-            </Flex>
-            <IconButton
-              variant="ghost"
-              colorScheme="gray"
-              aria-label="See menu"
-              icon={<BsThreeDotsVertical />}
-            />
-          </Flex>
-        </CardHeader>
-        <CardBody>
-          <Text>
-            With Chakra UI, I wanted to sync the speed of development with the
-            speed of design. I wanted the developer to be just as excited as
-            the designer to create a screen.
-          </Text>
-        </CardBody>
-        <Image
-          objectFit="cover"
-          src="https://images.unsplash.com/photo-1531403009284-440f080d1e12?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"
-          alt="Chakra UI"
-        />
-        <CardFooter
-          justify="space-between"
-          flexWrap="wrap"
-          sx={{
-            '& > button': {
-              minW: '136px',
-            },
-          }}
-        >
-          <Button flex="1" variant="ghost" leftIcon={<BiLike />}>
-            Like
-          </Button>
-          <Button flex="1" variant="ghost" leftIcon={<BiChat />}>
-            Comment
-          </Button>
-          <Button flex="1" variant="ghost" leftIcon={<BiShare />}>
-            Share
-          </Button>
-        </CardFooter>
-      </Card></div>
-      <div className='exponentially'><Card maxW="md">
-        <CardHeader>
-          <Flex justify="space-between" alignItems="center">
-            <Flex gap="4" alignItems="center" flexWrap="wrap">
-              <Avatar name="Segun Adebayo" src="https://bit.ly/sage-adebayo" />
-              <Box>
-                <Heading size="sm">Segun Adebayo</Heading>
-                <Text>Creator, Chakra UI</Text>
-              </Box>
-            </Flex>
-            <IconButton
-              variant="ghost"
-              colorScheme="gray"
-              aria-label="See menu"
-              icon={<BsThreeDotsVertical />}
-            />
-          </Flex>
-        </CardHeader>
-        <CardBody>
-          <Text>
-            With Chakra UI, I wanted to sync the speed of development with the
-            speed of design. I wanted the developer to be just as excited as
-            the designer to create a screen.
-          </Text>
-        </CardBody>
-        <Image
-          objectFit="cover"
-          src="https://images.unsplash.com/photo-1531403009284-440f080d1e12?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"
-          alt="Chakra UI"
-        />
-        <CardFooter
-          justify="space-between"
-          flexWrap="wrap"
-          sx={{
-            '& > button': {
-              minW: '136px',
-            },
-          }}
-        >
-          <Button flex="1" variant="ghost" leftIcon={<BiLike />}>
-            Like
-          </Button>
-          <Button flex="1" variant="ghost" leftIcon={<BiChat />}>
-            Comment
-          </Button>
-          <Button flex="1" variant="ghost" leftIcon={<BiShare />}>
-            Share
-          </Button>
-        </CardFooter>
-      </Card></div>
-      <div className='Socialmedia'><Card maxW="md">
-        <CardHeader>
-          <Flex justify="space-between" alignItems="center">
-            <Flex gap="4" alignItems="center" flexWrap="wrap">
-              <Avatar name="Segun Adebayo" src="https://bit.ly/sage-adebayo" />
-              <Box>
-                <Heading size="sm">Segun Adebayo</Heading>
-                <Text>Creator, Chakra UI</Text>
-              </Box>
-            </Flex>
-            <IconButton
-              variant="ghost"
-              colorScheme="gray"
-              aria-label="See menu"
-              icon={<BsThreeDotsVertical />}
-            />
-          </Flex>
-        </CardHeader>
-        <CardBody>
-          <Text>
-            With Chakra UI, I wanted to sync the speed of development with the
-            speed of design. I wanted the developer to be just as excited as
-            the designer to create a screen.
-          </Text>
-        </CardBody>
-        <Image
-          objectFit="cover"
-          src="https://images.unsplash.com/photo-1531403009284-440f080d1e12?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"
-          alt="Chakra UI"
-        />
-        <CardFooter
-          justify="space-between"
-          flexWrap="wrap"
-          sx={{
-            '& > button': {
-              minW: '136px',
-            },
-          }}
-        >
-          <Button flex="1" variant="ghost" leftIcon={<BiLike />}>
-            Like
-          </Button>
-          <Button flex="1" variant="ghost" leftIcon={<BiChat />}>
-            Comment
-          </Button>
-          <Button flex="1" variant="ghost" leftIcon={<BiShare />}>
-            Share
-          </Button>
-        </CardFooter>
-      </Card></div>
-      <div className='todo'><Card maxW="md">
-        <CardHeader>
-          <Flex justify="space-between" alignItems="center">
-            <Flex gap="4" alignItems="center" flexWrap="wrap">
-              <Avatar name="Segun Adebayo" src="https://bit.ly/sage-adebayo" />
-              <Box>
-                <Heading size="sm">Segun Adebayo</Heading>
-                <Text>Creator, Chakra UI</Text>
-              </Box>
-            </Flex>
-            <IconButton
-              variant="ghost"
-              colorScheme="gray"
-              aria-label="See menu"
-              icon={<BsThreeDotsVertical />}
-            />
-          </Flex>
-        </CardHeader>
-        <CardBody>
-          <Text>
-            With Chakra UI, I wanted to sync the speed of development with the
-            speed of design. I wanted the developer to be just as excited as
-            the designer to create a screen.
-          </Text>
-        </CardBody>
-        <Image
-          objectFit="cover"
-          src="https://images.unsplash.com/photo-1531403009284-440f080d1e12?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"
-          alt="Chakra UI"
-        />
-        <CardFooter
-          justify="space-between"
-          flexWrap="wrap"
-          sx={{
-            '& > button': {
-              minW: '136px',
-            },
-          }}
-        >
-          <Button flex="1" variant="ghost" leftIcon={<BiLike />}>
-            Like
-          </Button>
-          <Button flex="1" variant="ghost" leftIcon={<BiChat />}>
-            Comment
-          </Button>
-          <Button flex="1" variant="ghost" leftIcon={<BiShare />}>
-            Share
-          </Button>
-        </CardFooter>
-      </Card></div>
-      <div className='todo'><Card maxW="md">
-        <CardHeader>
-          <Flex justify="space-between" alignItems="center">
-            <Flex gap="4" alignItems="center" flexWrap="wrap">
-              <Avatar name="Segun Adebayo" src="https://bit.ly/sage-adebayo" />
-              <Box>
-                <Heading size="sm">Segun Adebayo</Heading>
-                <Text>Creator, Chakra UI</Text>
-              </Box>
-            </Flex>
-            <IconButton
-              variant="ghost"
-              colorScheme="gray"
-              aria-label="See menu"
-              icon={<BsThreeDotsVertical />}
-            />
-          </Flex>
-        </CardHeader>
-        <CardBody>
-          <Text>
-            With Chakra UI, I wanted to sync the speed of development with the
-            speed of design. I wanted the developer to be just as excited as
-            the designer to create a screen.
-          </Text>
-        </CardBody>
-        <Image
-          objectFit="cover"
-          src="https://images.unsplash.com/photo-1531403009284-440f080d1e12?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"
-          alt="Chakra UI"
-        />
-        <CardFooter
-          justify="space-between"
-          flexWrap="wrap"
-          sx={{
-            '& > button': {
-              minW: '136px',
-            },
-          }}
-        >
-          <Button flex="1" variant="ghost" leftIcon={<BiLike />}>
-            Like
-          </Button>
-          <Button flex="1" variant="ghost" leftIcon={<BiChat />}>
-            Comment
-          </Button>
-          <Button flex="1" variant="ghost" leftIcon={<BiShare />}>
-            Share
-          </Button>
-        </CardFooter>
-      </Card></div></>
-  );
+function Projects (){
+  return (<div><div className="relative flex min-h-screen flex-col justify-center overflow-hidden bg-gray-50 py-6 sm:py-12">
+    <div className="max-w-screen-md mx-auto">
+      <div className="grid grid-cols-3 gap-6">
+        <div className="group pb-24 relative overflow-hidden">
+          <div className="group-hover:translate-y-0 transition-all duration-700 translate-y-full top-0 right-0 bottom-24 left-0 absolute bg-gradient-to-b from-transparent to-orange-600 z-10"></div>
+          <img src="https://picsum.photos/300/300" className="transition-all group-hover:scale-125 duration-700 mr-4 h-60 w-auto" alt=""/>
+          <div className="bg-orange-600 absolute z-10 bottom-0 left-0 w-full h-24 flex flex-col justify-center items-center">
+            <div className="z-20 absolute -top-5 w-full flex justify-center">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="group-hover:bg-white group-hover:text-orange-600 group-hover:rotate-180 w-10 h-10 bg-black text-white p-2 rounded-full transition-all">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M4.26 10.147a60.438 60.438 0 0 0-.491 6.347A48.62 48.62 0 0 1 12 20.904a48.62 48.62 0 0 1 8.232-4.41 60.46 60.46 0 0 0-.491-6.347m-15.482 0a50.636 50.636 0 0 0-2.658-.813A59.906 59.906 0 0 1 12 3.493a59.903 59.903 0 0 1 10.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.717 50.717 0 0 1 12 13.489a50.702 50.702 0 0 1 7.74-3.342M6.75 15a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Zm0 0v-3.675A55.378 55.378 0 0 1 12 8.443m-7.007 11.55A5.981 5.981 0 0 0 6.75 15.75v-1.5" />
+              </svg>
+            </div>
+            <div className="group-hover:hidden transition-all duration-1000 w-4 absolute overflow-hidden inline-block right-0 -top-6">
+              <div className="h-6  bg-orange-900 -rotate-45 transform origin-bottom-right"></div>
+            </div>
+            <h2 className="font-bold">Bob haris</h2>
+            <span className="text-white">Sales executive</span>
+          </div>
+        </div>
+  
+        <div className="group pb-24 relative overflow-hidden">
+          <div className="group-hover:translate-y-0 transition-all duration-700 translate-y-full top-0 right-0 bottom-24 left-0 absolute bg-gradient-to-b from-transparent to-orange-600 z-10"></div>
+          <img src="https://picsum.photos/300/300" className="absolute transition-all group-hover:scale-125 duration-700 mr-4 h-60 right-0" alt=""/>
+          <div className="bg-orange-600 absolute z-10 bottom-0 left-0 w-full h-24 flex flex-col justify-center items-center">
+            <div className="z-20 absolute -top-5 w-full flex justify-center">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="group-hover:bg-white group-hover:text-orange-600 group-hover:rotate-180 w-10 h-10 bg-black text-white p-2 rounded-full transition-all">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M4.26 10.147a60.438 60.438 0 0 0-.491 6.347A48.62 48.62 0 0 1 12 20.904a48.62 48.62 0 0 1 8.232-4.41 60.46 60.46 0 0 0-.491-6.347m-15.482 0a50.636 50.636 0 0 0-2.658-.813A59.906 59.906 0 0 1 12 3.493a59.903 59.903 0 0 1 10.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.717 50.717 0 0 1 12 13.489a50.702 50.702 0 0 1 7.74-3.342M6.75 15a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Zm0 0v-3.675A55.378 55.378 0 0 1 12 8.443m-7.007 11.55A5.981 5.981 0 0 0 6.75 15.75v-1.5" />
+              </svg>
+            </div>
+            <div className="group-hover:hidden transition-all duration-1000 w-4 absolute overflow-hidden inline-block right-0 -top-6">
+              <div className="h-6  bg-orange-900 -rotate-45 transform origin-bottom-right"></div>
+            </div>
+            <h2 className="font-bold">Bob haris</h2>
+            <span className="text-white">Sales executive</span>
+          </div>
+        </div>
+  
+        <div className="group pb-24 relative overflow-hidden">
+          <div className="group-hover:translate-y-0 transition-all duration-700 translate-y-full top-0 right-0 bottom-24 left-0 absolute bg-gradient-to-b from-transparent to-orange-600 z-10"></div>
+          <img src="https://picsum.photos/300/300" className="absolute transition-all group-hover:scale-125 duration-700 mr-4 h-60 right-0" alt=""/>
+          <div className="bg-orange-600 absolute z-10 bottom-0 left-0 w-full h-24 flex flex-col justify-center items-center">
+            <div className="z-20 absolute -top-5 w-full flex justify-center">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="group-hover:bg-white group-hover:text-orange-600 group-hover:rotate-180 w-10 h-10 bg-black text-white p-2 rounded-full transition-all">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M4.26 10.147a60.438 60.438 0 0 0-.491 6.347A48.62 48.62 0 0 1 12 20.904a48.62 48.62 0 0 1 8.232-4.41 60.46 60.46 0 0 0-.491-6.347m-15.482 0a50.636 50.636 0 0 0-2.658-.813A59.906 59.906 0 0 1 12 3.493a59.903 59.903 0 0 1 10.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.717 50.717 0 0 1 12 13.489a50.702 50.702 0 0 1 7.74-3.342M6.75 15a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Zm0 0v-3.675A55.378 55.378 0 0 1 12 8.443m-7.007 11.55A5.981 5.981 0 0 0 6.75 15.75v-1.5" />
+              </svg>
+            </div>
+            <div className="group-hover:hidden transition-all duration-1000 w-4 absolute overflow-hidden inline-block right-0 -top-6">
+              <div className="h-6  bg-orange-900 -rotate-45 transform origin-bottom-right"></div>
+            </div>
+            <h2 className="font-bold">Bob haris</h2>
+            <span className="text-white">Sales executive</span>
+          </div>
+        </div>
+  
+        <div className="group pb-24 relative overflow-hidden">
+          <div className="group-hover:translate-y-0 transition-all duration-700 translate-y-full top-0 right-0 bottom-24 left-0 absolute bg-gradient-to-b from-transparent to-orange-600 z-10"></div>
+          <img src="https://picsum.photos/300/300" className="transition-all group-hover:scale-125 duration-700 mr-4 h-60 w-auto" alt=""/>
+          <div className="bg-orange-600 absolute z-10 bottom-0 left-0 w-full h-24 flex flex-col justify-center items-center">
+            <div className="z-20 absolute -top-5 w-full flex justify-center">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="group-hover:bg-white group-hover:text-orange-600 group-hover:rotate-180 w-10 h-10 bg-black text-white p-2 rounded-full transition-all">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M4.26 10.147a60.438 60.438 0 0 0-.491 6.347A48.62 48.62 0 0 1 12 20.904a48.62 48.62 0 0 1 8.232-4.41 60.46 60.46 0 0 0-.491-6.347m-15.482 0a50.636 50.636 0 0 0-2.658-.813A59.906 59.906 0 0 1 12 3.493a59.903 59.903 0 0 1 10.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.717 50.717 0 0 1 12 13.489a50.702 50.702 0 0 1 7.74-3.342M6.75 15a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Zm0 0v-3.675A55.378 55.378 0 0 1 12 8.443m-7.007 11.55A5.981 5.981 0 0 0 6.75 15.75v-1.5" />
+              </svg>
+            </div>
+            <div className="group-hover:hidden transition-all duration-1000 w-4 absolute overflow-hidden inline-block right-0 -top-6">
+              <div className="h-6  bg-orange-900 -rotate-45 transform origin-bottom-right"></div>
+            </div>
+            <h2 className="font-bold">Bob haris</h2>
+            <span className="text-white">Sales executive</span>
+          </div>
+        </div>
+  
+        <div className="group pb-24 relative overflow-hidden">
+          <div className="group-hover:translate-y-0 transition-all duration-700 translate-y-full top-0 right-0 bottom-24 left-0 absolute bg-gradient-to-b from-transparent to-orange-600 z-10"></div>
+          <img src="https://picsum.photos/300/300" className="absolute transition-all group-hover:scale-125 duration-700 mr-4 h-60 right-0" alt=""/>
+          <div className="bg-orange-600 absolute z-10 bottom-0 left-0 w-full h-24 flex flex-col justify-center items-center">
+            <div className="z-20 absolute -top-5 w-full flex justify-center">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="group-hover:bg-white group-hover:text-orange-600 group-hover:rotate-180 w-10 h-10 bg-black text-white p-2 rounded-full transition-all">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M4.26 10.147a60.438 60.438 0 0 0-.491 6.347A48.62 48.62 0 0 1 12 20.904a48.62 48.62 0 0 1 8.232-4.41 60.46 60.46 0 0 0-.491-6.347m-15.482 0a50.636 50.636 0 0 0-2.658-.813A59.906 59.906 0 0 1 12 3.493a59.903 59.903 0 0 1 10.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.717 50.717 0 0 1 12 13.489a50.702 50.702 0 0 1 7.74-3.342M6.75 15a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Zm0 0v-3.675A55.378 55.378 0 0 1 12 8.443m-7.007 11.55A5.981 5.981 0 0 0 6.75 15.75v-1.5" />
+              </svg>
+            </div>
+            <div className="group-hover:hidden transition-all duration-1000 w-4 absolute overflow-hidden inline-block right-0 -top-6">
+              <div className="h-6  bg-orange-900 -rotate-45 transform origin-bottom-right"></div>
+            </div>
+            <h2 className="font-bold">Bob haris</h2>
+            <span className="text-white">Sales executive</span>
+          </div>
+        </div>
+  
+        <div className="group pb-24 relative overflow-hidden">
+          <div className="group-hover:translate-y-0 transition-all duration-700 translate-y-full top-0 right-0 bottom-24 left-0 absolute bg-gradient-to-b from-transparent to-orange-600 z-10"></div>
+          <img src="https://picsum.photos/300/300" className="absolute transition-all group-hover:scale-125 duration-700 mr-4 h-60 right-0" alt=""/>
+          <div className="bg-orange-600 absolute z-10 bottom-0 left-0 w-full h-24 flex flex-col justify-center items-center">
+            <div className="z-20 absolute -top-5 w-full flex justify-center">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="group-hover:bg-white group-hover:text-orange-600 group-hover:rotate-180 w-10 h-10 bg-black text-white p-2 rounded-full transition-all">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M4.26 10.147a60.438 60.438 0 0 0-.491 6.347A48.62 48.62 0 0 1 12 20.904a48.62 48.62 0 0 1 8.232-4.41 60.46 60.46 0 0 0-.491-6.347m-15.482 0a50.636 50.636 0 0 0-2.658-.813A59.906 59.906 0 0 1 12 3.493a59.903 59.903 0 0 1 10.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.717 50.717 0 0 1 12 13.489a50.702 50.702 0 0 1 7.74-3.342M6.75 15a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Zm0 0v-3.675A55.378 55.378 0 0 1 12 8.443m-7.007 11.55A5.981 5.981 0 0 0 6.75 15.75v-1.5" />
+              </svg>
+            </div>
+            <div className="group-hover:hidden transition-all duration-1000 w-4 absolute overflow-hidden inline-block right-0 -top-6">
+              <div className="h-6  bg-orange-900 -rotate-45 transform origin-bottom-right"></div>
+            </div>
+            <h2 className="font-bold">Bob haris</h2>
+            <span className="text-white">Sales executive</span>
+          </div>
+        </div>
+  
+      </div>
+    </div>
+  </div></div>)
 }
-
 export default Projects;
