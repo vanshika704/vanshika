@@ -1,7 +1,6 @@
 "use client";
 
 import { CardBody, CardContainer, CardItem } from "./3-Dcard.jsx";
-import { Grid, GridItem, Image } from '@chakra-ui/react';
 
 export function ThreeDCardDemo() {
   const techImages = [
@@ -25,30 +24,25 @@ export function ThreeDCardDemo() {
   return (
     <div className="card1">
       <CardContainer className="inter-var">
-        <CardBody className="bg-white relative group/card dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border">
-         <CardItem><div className="poppins-bold text1">TECH STACK</div></CardItem>
+        <CardBody className="bg-white relative group/card dark:bg-black dark:border-white/20 border-black/10 w-auto sm:w-[30rem] h-auto rounded-xl p-6 border">
           <CardItem>
-            <Grid
-              h='auto'
-              templateRows='repeat(4, 1fr)'
-              templateColumns='repeat(3, 1fr)'
-              gap={4}
-            >
+            <div className="font-bold text-6xl mb-4">TECH STACK</div>
+          </CardItem>
+          <CardItem>
+            <div className="grid grid-cols-3 gap-12">
               {techImages.map((tech, index) => (
-                <GridItem 
-                  key={index} 
-                  colSpan={1} 
-                  bg= "transparent"
-                  display='flex' 
-                  alignItems='center' 
-                  justifyContent='center'
-                  border='1px solid #ccc' 
-                  // Optional: Adds a border to see the grid layout
+                <div
+                  key={index}
+                  className="flex items-center justify-center bg-transparent border border-gray-300 p-2"
                 >
-                  <Image src={tech.src} alt={tech.alt} boxSize='80px' objectFit='cover' />
-                </GridItem>
+                  <img
+                    src={tech.src}
+                    alt={tech.alt}
+                    className="w-20 h-20 object-cover"
+                  />
+                </div>
               ))}
-            </Grid>
+            </div>
           </CardItem>
         </CardBody>
       </CardContainer>

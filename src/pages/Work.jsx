@@ -6,7 +6,8 @@ import FOG from 'vanta/dist/vanta.fog.min';
 import React from 'react';
 
 
-import MyBook from "../components/ui/aboutme";
+// import MyBook from "../components/ui/aboutme";
+import Projects from "../components/ui/projects";
 class Work extends React.Component {
     constructor() {
       super();
@@ -62,7 +63,8 @@ class Work extends React.Component {
         <div ref={this.vantaRef} style={style}>
           <div><Navbar /></div>
  {/* <Projects/> */}
- <MyBook/>
+ {/* <MyBook/> */}
+ <Projects/>
         </div>
       );
     }
