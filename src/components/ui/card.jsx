@@ -24,12 +24,12 @@ export function ThreeDCardDemo() {
   return (
     <div className="card1">
       <CardContainer className="inter-var">
-        <CardBody className="bg-white relative group/card dark:bg-black dark:border-white/20 border-black/10 w-auto sm:w-[30rem] h-auto rounded-xl p-6 border">
-          <CardItem>
-            <div className="font-bold text-6xl mb-4">TECH STACK</div>
+        <CardBody className="bg-white relative group/card dark:bg-black dark:border-white/20 border-black/10 w-auto sm:w-[30rem] h-auto rounded-xl p-4 border mt-0">
+          <CardItem className="mb-2">
+            <div className="font-bold text-5xl">TECH STACK</div>
           </CardItem>
           <CardItem>
-            <div className="grid grid-cols-3 gap-12">
+            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-1 sm:gap-1 lg:gap-2">
               {techImages.map((tech, index) => (
                 <div
                   key={index}
@@ -38,7 +38,7 @@ export function ThreeDCardDemo() {
                   <img
                     src={tech.src}
                     alt={tech.alt}
-                    className="w-20 h-20 object-cover"
+                    className="w-16 h-16 sm:w-20 sm:h-20 object-cover"
                   />
                 </div>
               ))}
