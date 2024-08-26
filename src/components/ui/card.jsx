@@ -23,8 +23,8 @@ export function ThreeDCardDemo() {
 
   return (
     <div className="card1">
-      <CardContainer className="inter-var">
-        <CardBody className="bg-white relative group/card dark:bg-black dark:border-white/20 border-black/10 w-auto sm:w-[30rem] h-auto rounded-xl p-4 border mt-0">
+      <CardContainer className="inter-var mt-36">
+        <CardBody className="bg-white relative group/card dark:bg-black dark:border-white/20 border-black/10 w-auto sm:w-[30rem] h-auto rounded-xl  border mt-0">
           <CardItem className="mb-2">
             <div className="font-bold  sm:text-4xl md:text-4xl lg:text-5xl">TECH STACK</div>
           </CardItem>

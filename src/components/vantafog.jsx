@@ -14,27 +14,14 @@ class FogComponent extends React.Component {
       mouseControls: true,
       touchControls: true,
       gyroControls: false,
-      minHeight: 200.00,
-      minWidth: 200.00,
-      // highlightColor: 0x000000 ,// Light blue
-      // midtoneColor: 0x9fc5e8,   // Slightly lighter light blue
-      // lowlightColor: 0x007acc,   // Darker blue for contrast
-      // baseColor: 0x7bc2e8,      // Black background
-      // waveHeight: 10,
-      // waveSpeed: 1.0
+      minHeight: 500.00,
+      minWidth: 500.00,
       highlightColor: 0x48c6fa,  // Dark blue
-midtoneColor: 0x9fc5e8,    // Slightly lighter light blue
-lowlightColor: 0x000000,   // Black for contrast
-baseColor: 0xffffff,       // White background
-waveHeight: 10,
-waveSpeed: 1.0
-
-// highlightColor: 0x808080,  // Grey
-// midtoneColor: 0xbfbfbf,    // Light grey
-// lowlightColor: 0x404040,   // Dark grey for contrast
-// baseColor: 0xffffff,       // White background
-// waveHeight: 10,
-// waveSpeed: 1.0
+      midtoneColor: 0x9fc5e8,    // Slightly lighter light blue
+      lowlightColor: 0x000000,   // Black for contrast
+      baseColor: 0xffffff,       // White background
+      waveHeight: 10,
+      waveSpeed: 1.0
     });
   }
 
@@ -43,20 +30,14 @@ waveSpeed: 1.0
   }
 
   render() {
-    const style = {
-      width: '100vw',
-      height: '100vh',
-      position: 'absolute',
-      top: 0,
-      left: 0,
-      overflow: 'hidden',
-      backgroundColor: '#000000', // Ensure the background is black
-    };
-
     return (
-      <div ref={this.vantaRef} style={style}>
-        <div><Navbar /></div>
-       
+      <div
+        ref={this.vantaRef}
+        className="w-screen h-screen absolute top-0 left-0 overflow-hidden bg-black flex justify-center items-center flex-col"
+      >
+        <div className="absolute top-0 left-0 w-full">
+          <Navbar />
+        </div>
       </div>
     );
   }
