@@ -57,7 +57,7 @@ const MyComponent1 = () => {
         </div>
        
       </div>
-      <div className="absolute right-10 top-1/2 transform -translate-y-1/2 mr-12">
+      <div className="absolute right-20 top-1/2 transform -translate-y-1/2 mr-12">
           <img src="src/assets/IMG-20240117-WA0060.jpg" alt="example" className="rounded-full h-96 w-96 transition-transform duration-300 ease-in-out shadow-lg hover:translate-y-5 hover:shadow-2xl" />
         </div>
     </div>
