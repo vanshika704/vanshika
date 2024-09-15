@@ -2,7 +2,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-body {
+/* body {
   background: #fff;
   padding: 20px;
 }
@@ -97,7 +97,7 @@ body {
 
 
 /* Responsive Design */
-@media screen and (max-width: 1200px) {
+/* @media screen and (max-width: 1200px) {
   .image-container img {
     height: 300px;
     width: 300px;
@@ -231,4 +231,4 @@ body {
   .icons {
     margin-left: 0;
   }
-}
+} */ 
