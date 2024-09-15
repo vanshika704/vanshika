@@ -2,6 +2,26 @@ import React from 'react';
 import BIRDS from 'vanta/dist/vanta.birds.min';
 // import * as THREE from 'three'; // Ensure THREE.js is available
 import Navbar from './navbar';
+import styled from 'styled-components';
+
+// Define a styled component with responsive styles
+const VantaContainer = styled.div`
+  width: 100vw;
+  height: 100vh; /* Default for large screens */
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  background-size: cover; /* Ensures the background image covers the entire viewport */
+
+  @media (max-width: 1024px) { /* Medium screens (tablets, etc.) */
+    height: 200vh;
+  }
+
+  @media (max-width: 768px) { /* Small screens (phones, etc.) */
+    height: 400vh;
+  }
+`;
 
 class MyComponent extends React.Component {
   constructor() {
@@ -16,12 +36,6 @@ class MyComponent extends React.Component {
       backgroundColor: 0xe0f7fa, // Light cyan background
       color1: 0x333333, // Dark grey color for birds
       color2: 0xffffff, // White color for birds
-      // Uncomment and adjust these properties if needed:
-      // birdSize: 1.0, // Adjust the bird size if needed
-      // speedLimit: 3.0, // Adjust the speed of birds if needed
-      // separation: 50.0, // Adjust the separation between birds if needed
-      // alignment: 50.0, // Adjust the alignment of birds if needed
-      // cohesion: 50.0 // Adjust the cohesion of birds if needed
     });
   }
 
@@ -31,20 +45,10 @@ class MyComponent extends React.Component {
   }
 
   render() {
-    const style = {
-      width: '100vw',
-      height: '200vh',
-      position: 'absolute',
-      top: 0,
-      left: 0,
-      overflow: 'hidden',
-      backgroundSize: 'cover', // Ensures the background image covers the entire viewport
-    };
-
     return (
-      <div ref={this.vantaRef} style={style}>
+      <VantaContainer ref={this.vantaRef}>
         <Navbar />
-      </div>
+      </VantaContainer>
     );
   }
 }
