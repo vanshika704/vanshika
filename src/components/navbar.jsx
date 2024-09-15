@@ -12,7 +12,7 @@ function Navbar() {
     { title: 'Home', icon: <IconHome className="h-4 w-4 text-gray-700" />, href: '/' },
     { title: 'About', icon: <IconFileText className="h-4 w-4 text-gray-700" />, href: '/about' },
     { title: 'Skills', icon: <IconCode className="h-4 w-4 text-gray-700" />, href: '/skills' },
-    { title: 'Projects', icon: <IconFileCode className="h-4 w-4 text-gray-700" />, href: '/projects' },
+    { title: 'Projects', icon: <IconFileCode className="h-4 w-4 text-gray-700" />, href: '/work' },
     { title: 'Contact', icon: <IconMessageCircle className="h-4 w-4 text-gray-700" />, href: '/contact' },
   ];
 
