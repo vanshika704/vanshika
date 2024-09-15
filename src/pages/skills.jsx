@@ -6,7 +6,7 @@ import FogComponent from "../components/vantafog";
 const Skills = () => {
   return (
     <div>
-     <FogComponent/>
+     <FogComponent />
      <ThreeDCardDemo/>
     </div>
   );
