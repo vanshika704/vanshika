@@ -65,7 +65,7 @@ const MyComponent1 = () => {
             <button type="button" className="btn btn-dark resume" onClick={handleExploreClick}>Explore</button>
           </div>
         </div>
-        <div className="image-container">
+        <div className="image-container ">
           <img src="src/assets/IMG-20240117-WA0060.jpg" alt="example" />
         </div>
       </div>

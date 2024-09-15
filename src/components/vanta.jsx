@@ -33,7 +33,7 @@ class MyComponent extends React.Component {
   render() {
     const style = {
       width: '100vw',
-      height: '100vh',
+      height: '200vh',
       position: 'absolute',
       top: 0,
       left: 0,

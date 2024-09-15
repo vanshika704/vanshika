@@ -5,6 +5,7 @@ function Social() {
     <Box className='Social' display='flex' justifyContent='center' p={5}>
       <Box className='bg-gradient-to-bl from-blue-50 to-violet-50 p-4'>
         <Box className='container mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 gap-4 mt-36 ml-10'>
+          {/* Twitter Card */}
           <Card maxW='sm' backgroundColor='rgba(64, 64, 64, 0.8)'>
             <CardBody>
               <Image
@@ -30,6 +31,7 @@ function Social() {
             </CardFooter>
           </Card>
 
+          {/* LinkedIn Card */}
           <Card maxW='sm' backgroundColor='rgba(64, 64, 64, 0.8)'>
             <CardBody>
               <Image
@@ -55,6 +57,7 @@ function Social() {
             </CardFooter>
           </Card>
 
+          {/* Email Card */}
           <Card maxW='sm' backgroundColor='rgba(64, 64, 64, 0.8)'>
             <CardBody>
               <Image
@@ -75,6 +78,32 @@ function Social() {
               <ButtonGroup spacing='2'>
                 <Button variant='solid' colorScheme='blue' onClick={() => window.location.href = "https://mail.google.com/mail/u/0/#inbox"}>
                   Send Email
+                </Button>
+              </ButtonGroup>
+            </CardFooter>
+          </Card>
+
+          {/* GitHub Card */}
+          <Card maxW='sm' backgroundColor='rgba(64, 64, 64, 0.8)'>
+            <CardBody>
+              <Image
+                src='src/assets/png-clipart-github-logo-computer-icons-source-code-github-white-cat-like-mammal-removebg-preview.png' // Update this path with your GitHub image path
+                alt='GitHub'
+                borderRadius='lg'
+                height={100}
+              />
+              <Stack mt='6' spacing='3'>
+                <Heading size='md' color="white">GitHub</Heading>
+                <Text color="white">
+                  Username: YourGitHubUsername
+                </Text>
+              </Stack>
+            </CardBody>
+            <Divider />
+            <CardFooter>
+              <ButtonGroup spacing='2'>
+                <Button variant='solid' colorScheme='blue' onClick={() => window.open("https://github.com/YourGitHubUsername", "_blank")}>
+                  View Profile
                 </Button>
               </ButtonGroup>
             </CardFooter>
