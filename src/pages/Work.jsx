@@ -7,7 +7,7 @@ import React from 'react';
 
 
 // import MyBook from "../components/ui/aboutme";
-import Projects from "../components/ui/projects";
+import { AnimatedPinDemo } from "../components/ui/projects";
 class Work extends React.Component {
     constructor() {
       super();
@@ -64,7 +64,10 @@ class Work extends React.Component {
           <div><Navbar /></div>
  {/* <Projects/> */}
  {/* <MyBook/> */}
- <Projects/>
+
+
+
+ <AnimatedPinDemo/>
         </div>
       );
     }
