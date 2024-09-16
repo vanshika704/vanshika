@@ -4,10 +4,11 @@ import Navbar from "../components/navbar";
 import "../index.css"
 import FOG from 'vanta/dist/vanta.fog.min';
 import React from 'react';
+import { AnimatedPinDemo } from "../components/ui/projects";
 
 
 // import MyBook from "../components/ui/aboutme";
-import { AnimatedPinDemo } from "../components/ui/projects";
+// import {  BentoGridDemo } from "../components/ui/projects";
 class Work extends React.Component {
     constructor() {
       super();
@@ -68,6 +69,7 @@ class Work extends React.Component {
 
 
  <AnimatedPinDemo/>
+ {/* <BentoGridDemo/> */}
         </div>
       );
     }
