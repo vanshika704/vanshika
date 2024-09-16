@@ -44,7 +44,7 @@ export const PinContainer = ({
           style={{
             transform: transform,
           }}
-          className="absolute left-1/2 top-1/2 p-4 flex justify-start items-start rounded-7xl shadow-lg bg-black border border-white transition duration-700 overflow-hidden"
+          className="absolute left-1/2 top-1/2 p-4 flex justify-start items-start rounded-7xl shadow-lg bg-zinc-950/[0.7] border border-white transition duration-700 overflow-hidden"
         >
           <div className={cn("relative z-50", className)}>{children}</div>
         </div>
@@ -71,7 +71,7 @@ export const PinPerspective = ({ title, href }) => {
               href={href}
               target="_blank"
               rel="noopener noreferrer"
-              className="relative z-10 mt-0 rounded-full bg-zinc-950 py-1 px-4 ring-1 ring-white"
+              className="relative z-10  rounded-full bg-zinc-950 py-1 px-4 ring-1 ring-slate-800"
               style={{ backgroundColor: 'rgba(0, 0, 0, 0.7)' }} // Add a background color for visibility
             >
               <span className="relative text-white text-lg font-bold">
@@ -101,7 +101,7 @@ export const PinPerspective = ({ title, href }) => {
                   repeat: Infinity,
                   delay,
                 }}
-                className="absolute left-1/2 top-1/2 h-[11.25rem] w-[11.25rem] rounded-full bg-sky-500/[0.15] shadow-lg"
+                className="absolute left-1/2 top-1/2 h-[11.25rem] w-[11.25rem] rounded-full bg-white/[0.5] shadow-lg"
               ></motion.div>
             ))}
           </div>
