@@ -10,17 +10,17 @@ import 'swiper/css/pagination';
 export function AnimatedPinDemo() {
   return (
     <div className="animated-pin-demo-container"> {/* Add a container for styling */}
-      <h2 className="text-center text-2xl font-bold mb-4">Projects</h2> {/* Added heading */}
+      <div className="text-center text-slate-800 text-5xl mt-5 mb-2 font-medium font-poppins">PROJECTS</div> {/* Added heading */}
       <Swiper
         slidesPerView={1}
         spaceBetween={100}
         pagination={{ clickable: true }}
         navigation={true}
         autoplay={{ 
-          delay: 1000, // Delay between slides in milliseconds
+          delay: 3000, // Delay between slides in milliseconds
           disableOnInteraction: false, // Allow autoplay to continue after user interaction
         }}
-        speed={2000} // Speed of transition between slides
+        speed={1000} // Speed of transition between slides
         breakpoints={{
           640: { slidesPerView: 1 },
           768: { slidesPerView: 2 },
