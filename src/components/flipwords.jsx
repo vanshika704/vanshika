@@ -28,7 +28,7 @@ export function FlipWordsDemo() {
         src="src/assets/pixel-art-12601_256.gif"
         alt="gif"
         className="ml-2"
-        style={{ height: '100px', width: '100px' }} // Adjust size here
+        style={{ height: '150px', width: '150px' }} // Adjust size here
       />
     </div>
   );
