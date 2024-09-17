@@ -23,7 +23,13 @@ export function FlipWordsDemo() {
         </div>
       </div>
 
-      <img src="src/assets/pixel-art-12601_256.gif" height={50} alt="gif" className="ml-4" />
+      {/* Adjust the image size using height and width */}
+      <img
+        src="src/assets/pixel-art-12601_256.gif"
+        alt="gif"
+        className="ml-2"
+        style={{ height: '100px', width: '100px' }} // Adjust size here
+      />
     </div>
   );
 }
