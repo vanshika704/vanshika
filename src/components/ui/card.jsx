@@ -55,19 +55,20 @@ import { CardBody, CardContainer, CardItem } from './3-Dcard'; // Adjust the pat
 function CombinedCardDemo() {
   const techImages = [
     { src: 'src/assets/react.svg', alt: 'React' },
-    { src: '/assets/chakra1.jpg', alt: 'Chakra UI' },
-    { src: '/assets/flutter.svg', alt: 'Flutter' },
-    { src: '/assets/firebase.png', alt: 'Firebase' },
-    { src: '/assets/C_Logo.png', alt: 'C' },
-    { src: '/assets/c++.png', alt: 'C++' },
-    { src: '/assets/python.jpeg', alt: 'Python' },
-    { src: '/assets/html.png', alt: 'HTML' },
-    { src: '/assets/css.svg', alt: 'CSS' },
-    { src: '/assets/javascript.png', alt: 'JavaScript' },
-    { src: '/assets/java.webp', alt: 'Java' },
-    { src: '/assets/tailwind.png', alt: 'Tailwind CSS' },
-    { src: '/assets/figma.png', alt: 'Figma' },
-    { src: '/assets/canva.jpg', alt: 'Canva' },
+    { src: 'src/assets/chakra1.jpg', alt: 'Chakra UI' },
+    { src: 'src/assets/flutter.svg', alt: 'Flutter' },
+    { src: 'src/assets/firebase.png', alt: 'Firebase' },
+    { src: 'src/assets/C_Logo.png', alt: 'C' },
+    { src: 'src/assets/c++.png', alt: 'C++' },
+    { src: 'src/assets/python.jpeg', alt: 'Python' },
+    { src: 'src/assets/html.png', alt: 'HTML' },
+    { src: 'src/assets/css.svg', alt: 'CSS' },
+    { src: 'src/assets/javascript.png', alt: 'JavaScript' },
+    { src: 'src/assets/java.webp', alt: 'Java' },
+    { src: 'src/assets/tailwind.png', alt: 'Tailwind CSS' },
+    { src: 'src/assets/figma.png', alt: 'Figma' },
+    { src: 'src/assets/canva.jpg', alt: 'Canva' },
+    { src: 'src/assets/Bootstrap_logo.svg.png', alt: 'Bootstrap' },
   ];
 
   return (
