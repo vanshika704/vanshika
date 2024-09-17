@@ -1,13 +1,11 @@
 import { useEffect, useRef } from 'react';
-
-import NET from 'vanta/dist/vanta.net.min'; // Make sure the Vanta effect you want is imported
+import NET from 'vanta/dist/vanta.net.min';
 import Navbar from './navbar';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { FlipWordsDemo } from './flipwords';
 
 const MyComponent1 = () => {
   const vantaRef = useRef(null);
-  
 
   useEffect(() => {
     let vantaEffect = null;
@@ -34,22 +32,26 @@ const MyComponent1 = () => {
     };
   }, []);
 
- 
   return (
     <div ref={vantaRef} className="w-screen h-screen absolute top-0 left-0 overflow-hidden">
-      <div><Navbar /></div>
+      <Navbar />
 
-      <div className="mt-0 ml-12 w-full max-w-screen-lg relative">
+      {/* Grid container */}
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 w-full max-w-screen-lg relative lg:mt-0 sm:mt-40">
         
+        {/* FlipWordsDemo section */}
+        <div className="flex justify-center lg:justify-start">
           <FlipWordsDemo />
-       
+        </div>
 
-        {/* Wrapping buttons in the same container */}
-       
-      </div>
-
-      <div className="absolute right-20 top-1/2 transform -translate-y-1/2 mr-12">
-        <img src="src/assets/IMG-20240117-WA0060.jpg" alt="example" className="rounded-full h-96 w-96 transition-transform duration-300 ease-in-out shadow-lg hover:translate-y-5 hover:shadow-2xl" />
+        {/* Image section */}
+        <div className="sm:mt-0 lg:justify-end">
+          <img
+            src="src/assets/IMG-20240117-WA0060.jpg"
+            alt="example"
+            className="rounded-full mt-20 ml-96 h-96 w-96 lg:h-96 lg:w-96 transition-transform duration-300 ease-in-out shadow-lg hover:translate-y-5 hover:shadow-2xl"
+          />
+        </div>
       </div>
     </div>
   );
