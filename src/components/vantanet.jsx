@@ -1,5 +1,5 @@
 import { useEffect, useRef } from 'react';
-import { useNavigate } from 'react-router-dom';
+
 import NET from 'vanta/dist/vanta.net.min'; // Make sure the Vanta effect you want is imported
 import Navbar from './navbar';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -7,7 +7,7 @@ import { FlipWordsDemo } from './flipwords';
 
 const MyComponent1 = () => {
   const vantaRef = useRef(null);
-  const navigate = useNavigate();
+  
 
   useEffect(() => {
     let vantaEffect = null;
@@ -34,24 +34,18 @@ const MyComponent1 = () => {
     };
   }, []);
 
-  const handleExploreClick = () => {
-    navigate('/about');
-  };
-
+ 
   return (
     <div ref={vantaRef} className="w-screen h-screen absolute top-0 left-0 overflow-hidden">
       <div><Navbar /></div>
 
-      <div className="mt-20 ml-12 w-full max-w-screen-lg relative">
-        <div className="mb-12 ml-12 mt-5 mr-80">
+      <div className="mt-0 ml-12 w-full max-w-screen-lg relative">
+        
           <FlipWordsDemo />
-        </div>
+       
 
         {/* Wrapping buttons in the same container */}
-        <div className="flex justify-start mt-4 ml-12 space-x-4">
-          <button type="button" className="btn btn-dark resume">Resume</button>
-          <button type="button" className="btn btn-dark resume" onClick={handleExploreClick}>Explore</button>
-        </div>
+       
       </div>
 
       <div className="absolute right-20 top-1/2 transform -translate-y-1/2 mr-12">
