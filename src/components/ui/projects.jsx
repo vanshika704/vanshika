@@ -11,7 +11,7 @@ export function AnimatedPinDemo() {
   return (
     <Swiper
       slidesPerView={1}
-      spaceBetween={70}
+      spaceBetween={100}
       pagination={{ clickable: true }}
       navigation={true}
       autoplay={{ 
@@ -74,7 +74,7 @@ export function AnimatedPinDemo() {
           <PinContainer title="Weather app" href="https://twitter.com/mannupaaji">
             <div className="relative flex p-2 w-[20rem] h-[20rem] overflow-hidden"> {/* Adjusted size */}
               <img
-                src="src/assets/exponentially/Screenshot (59).png"
+                src="src/assets/gdscweather/Screenshot (88).png"
                 alt="Weather app"
                 className="absolute inset-0 w-full h-full object-cover"
               />
