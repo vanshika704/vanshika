@@ -18,11 +18,11 @@ export function AnimatedPinDemo() {
       </div>
 
       <div className="flex items-center justify-center h-[40rem] w-full">
-        <PinContainer title="ForestHill" href="https://twitter.com/mannupaaji">
+        <PinContainer title="Sign up" href="https://twitter.com/mannupaaji">
           <div className="relative flex p-1 w-[15rem] h-[15rem] overflow-hidden">
             <img
-              src="src/assets/foresthill/Screenshot (73).png"
-              alt="Forest Hill"
+              src="src/assets/all/Screenshot (64).png"
+              alt="Sign up"
               className="absolute inset-0 w-full h-full object-cover"
             />
           </div>
@@ -30,11 +30,11 @@ export function AnimatedPinDemo() {
       </div>
 
       <div className="flex items-center justify-center h-[40rem] w-full">
-        <PinContainer title="ForestHill" href="https://twitter.com/mannupaaji">
+        <PinContainer title="Exponentially" href="https://twitter.com/mannupaaji">
           <div className="relative flex p-1 w-[15rem] h-[15rem] overflow-hidden">
             <img
-              src="src/assets/foresthill/Screenshot (73).png"
-              alt="Forest Hill"
+              src="src/assets/exponentially/Screenshot (63).png"
+              alt="Exponentially"
               className="absolute inset-0 w-full h-full object-cover"
             />
           </div>
@@ -42,11 +42,23 @@ export function AnimatedPinDemo() {
       </div>
 
       <div className="flex items-center justify-center h-[40rem] w-full">
-        <PinContainer title="ForestHill" href="https://twitter.com/mannupaaji">
+        <PinContainer title="Weather app" href="https://twitter.com/mannupaaji">
           <div className="relative flex p-1 w-[15rem] h-[15rem] overflow-hidden">
             <img
-              src="src/assets/foresthill/Screenshot (73).png"
-              alt="Forest Hill"
+              src="src/assets/exponentially/Screenshot (59).png"
+              alt="Weather app"
+              className="absolute inset-0 w-full h-full object-cover"
+            />
+          </div>
+        </PinContainer>
+      </div>
+
+      <div className="flex items-center justify-center h-[40rem] w-full">
+        <PinContainer title="Pratishtha" href="https://twitter.com/mannupaaji">
+          <div className="relative flex p-1 w-[15rem] h-[15rem] overflow-hidden">
+            <img
+              src="src/assets/pratishtha/Screenshot (46).png"
+              alt="Pratishtha"
               className="absolute inset-0 w-full h-full object-cover"
             />
           </div>
