@@ -16,10 +16,10 @@ const MyComponent1 = () => {
         mouseControls: true,
         touchControls: true,
         gyroControls: false,
-        minHeight: 200.00,
-        minWidth: 200.00,
-        scale: 1.00,
-        scaleMobile: 1.00,
+        minHeight: 200.0,
+        minWidth: 200.0,
+        scale: 1.0,
+        scaleMobile: 1.0,
         color: 0xa9a9a9,
         backgroundColor: 0xffffff,
       });
@@ -36,20 +36,20 @@ const MyComponent1 = () => {
     <div ref={vantaRef} className="w-screen h-screen absolute top-0 left-0 overflow-hidden">
       <Navbar />
 
-      {/* Grid container */}
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 w-full max-w-screen-lg relative lg:mt-0 sm:mt-40">
+      {/* Container for alignment */}
+      <div className="flex flex-col lg:flex-row items-center justify-center w-full h-full p-4 lg:p-20 absolute inset-0 z-20">
         
         {/* FlipWordsDemo section */}
-        <div className="flex justify-center lg:justify-start">
+        <div className="flex-1 lg:mr-8 mb-4 lg:mb-0 flex items-center justify-center lg:justify-start">
           <FlipWordsDemo />
         </div>
 
         {/* Image section */}
-        <div className="sm:mt-0 lg:justify-end">
+        <div className="flex-1 flex items-center justify-center lg:justify-end">
           <img
             src="src/assets/IMG-20240117-WA0060.jpg"
             alt="example"
-            className="rounded-full mt-20 ml-96 h-96 w-96 lg:h-96 lg:w-96 transition-transform duration-300 ease-in-out shadow-lg hover:translate-y-5 hover:shadow-2xl"
+            className="rounded-full w-96 h-96 sm:w-48 sm:h-48 lg:w-96 lg:h-96 transition-transform duration-300 ease-in-out shadow-lg hover:translate-y-5 hover:shadow-2xl"
           />
         </div>
       </div>
