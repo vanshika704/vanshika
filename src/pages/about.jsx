@@ -78,7 +78,7 @@ waveSpeed: 1.0
         />
 
         {/* Lens component */}
-        <div className="absolute right-44 mt-20 flex  z-20">
+        <div className="absolute right-44 mt-20  flex  z-20">
           <Lens>
             <div className="w-full mt-10 ml-40 relative rounded-3xl overflow-hidden max-w-md mx-auto bg-gradient-to-r from-[#32323292] to-[#24242486] p-8 my-10">
               {/* <Rays />
