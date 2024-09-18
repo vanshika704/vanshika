@@ -18,8 +18,8 @@ export function LensDemoThird() {
             <img
               src="src/assets/Untitled Project.jpg"
               alt="image"
-              width={450}
-              height={450}
+              width={350}
+              height={350}
               className="rounded-2xl"
             />
             

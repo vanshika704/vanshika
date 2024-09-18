@@ -59,7 +59,7 @@ class About extends React.Component {
           {/* Lens component */}
           <div className="w-full md:w-1/2 flex justify-center p-4 md:p-0">
             <Lens>
-              <div className="w-full max-w-md rounded-3xl overflow-hidden bg-gradient-to-r from-[#32323292] to-[#24242486] p-8">
+              <div className="w-full max-w-md rounded-3xl overflow-hidden bg-gradient-to-r from-[#32323292] to-[#1f1f1fc5] p-8">
                 <div className="relative z-10">
                   <div className="text-white text-xl md:text-xl font-medium font-poppins">
                     Hi, I’m Vanshika, a creative and driven software engineer specializing in building seamless, high-performance applications using Flutter, Firebase, and React. I thrive on turning ideas into reality with clean, efficient code. Currently, I’m diving into the world of Node.js to expand my backend expertise. Lets build something amazing together!
