@@ -34,7 +34,10 @@ const MyComponent1 = () => {
 
   return (
     <div ref={vantaRef} className="w-screen h-screen absolute top-0 left-0 overflow-hidden">
-      <Navbar />
+      {/* Ensure Navbar is positioned correctly */}
+      <div className="relative z-30">
+        <Navbar />
+      </div>
 
       {/* Container for alignment */}
       <div className="flex flex-col lg:flex-row items-center justify-center w-full h-full p-4 lg:p-20 absolute inset-0 z-20">
@@ -49,7 +52,7 @@ const MyComponent1 = () => {
           <img
             src="src/assets/IMG-20240117-WA0060.jpg"
             alt="example"
-            className="rounded-full w-96 h-96 sm:w-48 sm:h-48 lg:w-96 lg:h-96 transition-transform duration-300 ease-in-out shadow-lg hover:translate-y-5 hover:shadow-2xl"
+            className="rounded-full w-48 h-48 sm:w-56 sm:h-56 lg:w-96 lg:h-96 transition-transform duration-300 ease-in-out shadow-lg hover:translate-y-5 hover:shadow-2xl"
           />
         </div>
       </div>
