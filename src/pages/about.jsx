@@ -44,7 +44,10 @@ class About extends React.Component {
 
     return (
       <div ref={this.vantaRef} style={style}>
-        <Navbar />
+        {/* Navbar with higher z-index */}
+        <div className="absolute top-0 left-0 w-full z-30">
+          <Navbar />
+        </div>
 
         {/* Container for flex alignment */}
         <div className="flex flex-col md:flex-row items-center justify-between w-full h-full p-4 md:p-20 absolute inset-0 z-20">
