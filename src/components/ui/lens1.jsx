@@ -10,7 +10,7 @@ export function LensDemoThird() {
     <div>
       <Lens>
         <div
-          className="w-full mt-20 sm:mt-0 ml-96  relative rounded-3xl overflow-hidden max-w-md mx-auto bg-gradient-to-r from-[#232323c2] to-[#a4a4a683] p-8 my-10"
+          className="w-full lg:mt-16 sm:mt-0 ml-96  relative rounded-3xl overflow-hidden max-w-md mx-auto bg-gradient-to-r from-[#232323c2] to-[#a4a4a683] p-8 my-10"
         >
           <Rays />
           <Beams />
