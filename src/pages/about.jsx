@@ -3,6 +3,8 @@
 import React from 'react';
 import FOG from 'vanta/dist/vanta.fog.min';
 import Navbar from '../components/navbar'
+import { LensDemoThird } from '../components/ui/lens1';
+import { Lens } from '../components/ui/lens';
 
 
 class About extends React.Component {
@@ -59,8 +61,41 @@ waveSpeed: 1.0
     return (
       <div ref={this.vantaRef} style={style}>
         <div><Navbar /></div>
+       
 
+        {/* LensDemoThird positioned above the background */}
+        <div className="absolute ml-20 inset-0 flex items-center z-20">
+          <LensDemoThird />
+        </div>
+
+        {/* HR with styling */}
+        <hr
+          style={{
+            boxShadow: '0 4px 15px rgba(255, 255, 255, 1)', // Strong white shadow
+            border: 'none', // Remove default border
+            height: '1px', // Set your desired hr height
+          }}
+        />
+
+        {/* Lens component */}
+        <div className="absolute right-44 mt-20 flex  z-20">
+          <Lens>
+            <div className="w-full mt-10 ml-40 relative rounded-3xl overflow-hidden max-w-md mx-auto bg-gradient-to-r from-[#32323292] to-[#24242486] p-8 my-10">
+              {/* <Rays />
+              <Beams/> */}
+              <div className="relative z-10">
+              <div className="text-white mt-0  text-2xl font-medium  mr-0 font-poppins">
+          Hi, I’m Vanshika, a creative and driven software engineer specializing in building seamless, high-performance applications using Flutter, Firebase, and React. I thrive on turning ideas into reality with clean, efficient code. Currently, I’m diving into the world of Node.js to expand my backend expertise. Lets build something amazing together!
+        </div>
+              </div>
+            </div>
+          </Lens>
+        </div>
+
+        {/* About Me Section */}
+       
       </div>
+     
     );
   }
 }
