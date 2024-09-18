@@ -98,6 +98,46 @@ export function AnimatedPinDemo() {
             </PinContainer>
           </div>
         </SwiperSlide>
+        <SwiperSlide>
+          <div className="flex items-center justify-center h-[30rem] w-full"> {/* Adjusted height */}
+            <PinContainer title="Social Media" href="https://twitter.com/mannupaaji">
+              <div className="relative flex p-2 w-[20rem] h-[20rem] overflow-hidden"> {/* Adjusted size */}
+                <img
+                  src="src/assets/social media/Screenshot (65).png"
+                  alt="Pratishtha"
+                  className="absolute inset-0 w-full h-full object-cover"
+                />
+              </div>
+            </PinContainer>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="flex items-center justify-center h-[30rem] w-full"> {/* Adjusted height */}
+            <PinContainer title="TODO" href="https://twitter.com/mannupaaji">
+              <div className="relative flex p-2 w-[20rem] h-[20rem] overflow-hidden"> {/* Adjusted size */}
+                <img
+                  src="src/assets/todo/Screenshot (71).png"
+                  alt="Pratishtha"
+                  className="absolute inset-0 w-full h-full object-cover"
+                />
+              </div>
+            </PinContainer>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="flex items-center justify-center h-[30rem] w-full"> {/* Adjusted height */}
+            <PinContainer title="Whatsapp" href="https://twitter.com/mannupaaji">
+              <div className="relative flex p-2 w-[20rem] h-[20rem] overflow-hidden"> {/* Adjusted size */}
+                <img
+                  src="src/assets/whatsapp/Screenshot_2024-08-08-20-05-29-42_dd8350f2a4d58b9e26f0ed7fbe7df0d9.jpg"
+                  alt="Pratishtha"
+                  className="absolute inset-0 w-full h-full object-cover"
+                />
+              </div>
+            </PinContainer>
+          </div>
+        </SwiperSlide>
+
       </Swiper>
     </div>
   );
