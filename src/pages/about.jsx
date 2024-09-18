@@ -46,9 +46,25 @@ class About extends React.Component {
       <div ref={this.vantaRef} style={style}>
         <Navbar />
 
-        {/* LensDemoThird positioned above the background */}
-        <div className="absolute ml-20 inset-0 flex items-center z-20 mt-10 md:mt-0">
-          <LensDemoThird />
+        {/* Container for flex alignment */}
+        <div className="flex flex-col md:flex-row items-center justify-between w-full h-full p-4 md:p-20 absolute inset-0 z-20">
+          {/* LensDemoThird positioned above the background */}
+          <div className="w-full md:w-1/2 flex justify-center mb-10 md:mb-0">
+            <LensDemoThird />
+          </div>
+
+          {/* Lens component */}
+          <div className="w-full md:w-1/2 flex justify-center p-4 md:p-0">
+            <Lens>
+              <div className="w-full max-w-md rounded-3xl overflow-hidden bg-gradient-to-r from-[#32323292] to-[#24242486] p-8">
+                <div className="relative z-10">
+                  <div className="text-white text-xl md:text-xl font-medium font-poppins">
+                    Hi, I’m Vanshika, a creative and driven software engineer specializing in building seamless, high-performance applications using Flutter, Firebase, and React. I thrive on turning ideas into reality with clean, efficient code. Currently, I’m diving into the world of Node.js to expand my backend expertise. Lets build something amazing together!
+                  </div>
+                </div>
+              </div>
+            </Lens>
+          </div>
         </div>
 
         {/* HR with styling */}
@@ -60,19 +76,6 @@ class About extends React.Component {
             margin: '20px 0',
           }}
         />
-
-        {/* Lens component */}
-        <div className="absolute right-10 md:right-44 mt-6 flex z-20 p-4 md:p-0">
-          <Lens>
-            <div className="w-full max-w-md rounded-3xl overflow-hidden bg-gradient-to-r from-[#32323292] to-[#24242486] p-8 my-10">
-              <div className="relative z-10">
-                <div className="text-white text-xl md:text-xl font-medium font-poppins">
-                  Hi, I’m Vanshika, a creative and driven software engineer specializing in building seamless, high-performance applications using Flutter, Firebase, and React. I thrive on turning ideas into reality with clean, efficient code. Currently, I’m diving into the world of Node.js to expand my backend expertise. Lets build something amazing together!
-                </div>
-              </div>
-            </div>
-          </Lens>
-        </div>
       </div>
     );
   }
