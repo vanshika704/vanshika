@@ -9,6 +9,9 @@ import Work from './pages/Work';
 import Contact from './pages/Contact';
 import Education from './pages/education';
 
+// import MyBook from './components/ui/aboutme';
+import ForestHill from './components/ui/aboutme';
+
 
 function App() {
   return (
@@ -18,10 +21,10 @@ function App() {
         <Route path="/" element={<MyComponent1 />} />
         <Route path="/about" element={<About />} />
         <Route path="/skills" element={<Skills />} />
-        
+        <Route path="/aboutme" element={<ForestHill />} />
         <Route path="/education" element={<Education />} />
         <Route path="/work" element={<Work />} />
-       
+        
         <Route path="/contact" element={<Contact />} />
       </Routes>
     </Router>
