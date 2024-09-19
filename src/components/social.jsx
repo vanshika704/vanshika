@@ -95,14 +95,14 @@ function Social() {
               <Stack mt='6' spacing='3'>
                 <Heading size='md' color="white">GitHub</Heading>
                 <Text color="white">
-                  Username: YourGitHubUsername
+                  Username: vanshika704
                 </Text>
               </Stack>
             </CardBody>
             <Divider />
             <CardFooter>
               <ButtonGroup spacing='2'>
-                <Button variant='solid' colorScheme='blue' onClick={() => window.open("https://github.com/YourGitHubUsername", "_blank")}>
+                <Button variant='solid' colorScheme='blue' onClick={() => window.open("https://github.com/vanshika704", "_blank")}>
                   View Profile
                 </Button>
               </ButtonGroup>
