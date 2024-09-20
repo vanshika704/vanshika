@@ -5,7 +5,8 @@ import path from 'path';
 // Use import.meta.url to derive the current directory
 const __dirname = path.dirname(new URL(import.meta.url).pathname);
 
-export default defineConfig({
+export default defineConfig({ 
+  publicDir: 'assets',
   plugins: [react()],
   resolve: { extensions: ['.js', '.jsx', '.ts', '.tsx'],
     alias: {
