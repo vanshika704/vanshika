@@ -51,8 +51,8 @@ class Work extends React.Component {
   
     render() {
       const style = {
-        width: '1420px',
-        height: '1400px',
+        width: '100vw',
+        height: '100vh',
         position: 'absolute',
         top: 0,
         left: 0,
