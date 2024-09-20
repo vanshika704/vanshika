@@ -141,7 +141,7 @@ function MyBook() {
       </Grid>
 
       <Grid
-        h={{ base: 'auto', sm: '300px', md: '400px', lg: '500px' }}
+        h={{ base: 'auto', sm: '300px', md: '400px', lg: '400px' }}
         templateRows={{ base: 'repeat(5, 1fr)', sm: 'repeat(4, 1fr)', md: 'repeat(3, 1fr)', lg: 'repeat(2, 1fr)' }}
         templateColumns={{ base: 'repeat(2, 1fr)', sm: 'repeat(3, 1fr)', md: 'repeat(4, 1fr)', lg: 'repeat(5, 1fr)' }}
         gap={2}
@@ -208,13 +208,11 @@ function MyBook() {
               
             </HTMLFlipBook>
           </div></GridItem>
-        <GridItem colSpan={{ base: 2, sm: 3, md: 2 }}  bg='rgba(255, 255, 255, 0.5)'   backgroundImage="url('/src/assets/wow.jpg')"
-  backgroundSize="cover"
-  backgroundPosition="center"// Update the bgImage prop
+          <GridItem colSpan={{ base: 2, sm: 3, md: 2 }} bg='rgba(255, 255, 255, 0.5)' // Update the bgImage prop
   bgSize="cover" // Ensure the image covers the entire area
   bgPosition="center" // Center the background image
   bgRepeat="no-repeat"
- ><div style={{ width: '100%', height: '100%' }}>
+        > <div style={{ width: '100%', height: '100%' }}>
             <HTMLFlipBook
               width={300} // Define fixed width
               height={280} // Define fixed height
@@ -223,7 +221,12 @@ function MyBook() {
               showCover={true}
               mobileScrollSupport={false}
             >
+              <div className="demoPage demopage3">
+              <img className="gridimage" src="src/assets/Youtube/Screenshot (232).png"   style={{ width: '100%', height: '100%', objectFit: 'cover' }}></img>
+              </div>
+              <div className="demoPage demopage1"> <img className="gridimage" src="src/assets/Youtube/Screenshot (233).png"  style={{ width: '100%', height: '100%', objectFit: 'cover' }}></img></div>
              
+              
             </HTMLFlipBook>
           </div></GridItem>
         <GridItem colSpan={{ base: 2, sm: 3, md: 2 }} bg='rgba(255, 255, 255, 0.5)'  
@@ -232,7 +235,7 @@ function MyBook() {
 
  ><div style={{ width: '100%', height: '100%' }}>
            
-             <div><img src = "src/assets/connection.gif" className="gridimage2"  style={{ width: '100%', height: '100%', objectFit: 'cover' }}></img></div>
+             {/* <div><img src = "src/assets/connection.gif" className="gridimage2"  style={{ width: '100%', height: '100%', objectFit: 'cover' }}></img></div> */}
             
           </div></GridItem>
       </Grid>

@@ -55,6 +55,7 @@ export function AnimatedPinDemo() {
           { title: "Social Media", src: "src/assets/social media/Screenshot (65).png" },
           { title: "TODO", src: "src/assets/todo/Screenshot (71).png" },
           { title: "Whatsapp", src: "src/assets/whatsapp/Screenshot_2024-08-08-20-05-29-42_dd8350f2a4d58b9e26f0ed7fbe7df0d9.jpg" },
+          { title: "YoutubeClone", src: "src/assets/Youtube/Screenshot (232).png" },
         ].map((slide, index) => (
           <SwiperSlide key={index}>
             <div className="flex items-center justify-center h-[30rem] w-full">
