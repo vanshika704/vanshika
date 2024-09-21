@@ -33,7 +33,8 @@ class FogComponent extends React.Component {
     return (
       <div
         ref={this.vantaRef}
-        className="w-screen h-screen absolute top-0 left-0 overflow-hidden bg-black flex justify-center items-center flex-col"
+        className="w-screen absolute top-0 left-0 overflow-hidden bg-black flex justify-center items-center flex-col" style={{ height: '200vh' }}
+
       >
         <div className="absolute top-0 left-0 w-full">
           <Navbar />
