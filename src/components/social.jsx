@@ -1,5 +1,8 @@
 import { Card, Image, Stack, Heading, Text, Button, ButtonGroup, Divider, CardBody, CardFooter, Box } from '@chakra-ui/react';
-
+import img1 from '../assets/twetter.avif'
+import img2 from '../assets/linkedin-2.png'
+import img3 from '../assets/gmail.webp'
+import img4 from '../assets/png-clipart-github-logo-computer-icons-source-code-github-white-cat-like-mammal-removebg-preview.png'
 function Social() {
   return (
     <Box className='Social' display='flex' justifyContent='center' p={5}>
@@ -9,7 +12,7 @@ function Social() {
           <Card maxW='sm' backgroundColor='rgba(64, 64, 64, 0.8)'>
             <CardBody>
               <Image
-                src='src/assets/twetter.avif'
+                src={img1}
                 alt='Twitter'
                 borderRadius='lg'
                 height={100}
@@ -35,7 +38,7 @@ function Social() {
           <Card maxW='sm' backgroundColor='rgba(64, 64, 64, 0.8)'>
             <CardBody>
               <Image
-                src='src/assets/linkedin-2.png'
+                src={img2}
                 alt='LinkedIn'
                 borderRadius='lg'
                 height={100}
@@ -61,7 +64,7 @@ function Social() {
           <Card maxW='sm' backgroundColor='rgba(64, 64, 64, 0.8)'>
             <CardBody>
               <Image
-                src='src/assets/gmail.webp'
+                src={img3}
                 alt='Email'
                 borderRadius='lg'
                 height={100}
@@ -87,7 +90,7 @@ function Social() {
           <Card maxW='sm' backgroundColor='rgba(64, 64, 64, 0.8)'>
             <CardBody>
               <Image
-                src='src/assets/png-clipart-github-logo-computer-icons-source-code-github-white-cat-like-mammal-removebg-preview.png' // Update this path with your GitHub image path
+                src={img4} // Update this path with your GitHub image path
                 alt='GitHub'
                 borderRadius='lg'
                 height={100}

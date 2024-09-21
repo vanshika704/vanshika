@@ -34,6 +34,15 @@ import img31 from '../../assets/exponentially/Screenshot (60).png'
 import img32 from '../../assets/exponentially/Screenshot (61).png'  
 import img33 from '../../assets/exponentially/Screenshot (62).png' 
 import img34 from '../../assets/exponentially/Screenshot (63).png' 
+import img35 from '../../assets/social media/Screenshot (65).png'
+import img36 from '../../assets/social media/Screenshot (66).png'
+import img37 from '../../assets/social media/Screenshot (67).png'
+import img38 from '../../assets/social media/Screenshot (68).png'
+import img39 from '../../assets/social media/Screenshot (69).png'
+import img40 from  '../../assets/todo/Screenshot (72).png'
+import img41 from '../../assets/todo/Screenshot (71).png'
+import img42 from '../../assets/Youtube/Screenshot (233).png'
+import img43 from '../../assets/Youtube/Screenshot (232).png'
 function MyBook() {
   return (
     <div className='Projectgrid'>
@@ -212,12 +221,12 @@ function MyBook() {
               showCover={true}
               mobileScrollSupport={false}
             >
-              <div className="demoPage demopage1"> <img className="gridimage" src="src/assets/social media/Screenshot (65).png"  style={{ width: '100%', height: '100%', objectFit: 'cover' }}></img></div>
-              <div className="demoPage demopage1"> <img className="gridimage" src="src/assets/social media/Screenshot (66).png"  style={{ width: '100%', height: '100%', objectFit: 'cover' }}></img></div>
-              <div className="demoPage demopage1"> <img className="gridimage" src="src/assets/social media/Screenshot (67).png"  style={{ width: '100%', height: '100%', objectFit: 'cover' }}></img></div>
-              <div className="demoPage demopage1"> <img className="gridimage" src="src/assets/social media/Screenshot (68).png"  style={{ width: '100%', height: '100%', objectFit: 'cover' }}></img></div>
-              <div className="demoPage demopage1"> <img className="gridimage" src="src/assets/social media/Screenshot (69).png"  style={{ width: '100%', height: '100%', objectFit: 'cover' }}></img></div>
-              <div className="demoPage demopage1"> <img className="gridimage" src="src/assets/social media/Screenshot (69).png"  style={{ width: '100%', height: '100%', objectFit: 'cover' }}></img></div>
+              <div className="demoPage demopage1"> <img className="gridimage" src={img36} style={{ width: '100%', height: '100%', objectFit: 'cover' }}></img></div>
+              <div className="demoPage demopage1"> <img className="gridimage" src={img37} style={{ width: '100%', height: '100%', objectFit: 'cover' }}></img></div>
+              <div className="demoPage demopage1"> <img className="gridimage" src={img38}  style={{ width: '100%', height: '100%', objectFit: 'cover' }}></img></div>
+              <div className="demoPage demopage1"> <img className="gridimage" src={img39}  style={{ width: '100%', height: '100%', objectFit: 'cover' }}></img></div>
+              <div className="demoPage demopage1"> <img className="gridimage" src={img35}  style={{ width: '100%', height: '100%', objectFit: 'cover' }}></img></div>
+              <div className="demoPage demopage1"> <img className="gridimage" src={img35}  style={{ width: '100%', height: '100%', objectFit: 'cover' }}></img></div>
            
             </HTMLFlipBook>
           </div></GridItem>
@@ -236,8 +245,8 @@ function MyBook() {
               showCover={true}
               mobileScrollSupport={false}
             >
-               <div className="demoPage demopage1"> <img className="gridimage" src="src/assets/todo/Screenshot (72).png"  style={{ width: '100%', height: '100%', objectFit: 'cover' }}></img></div>
-               <div className="demoPage demopage1"> <img className="gridimage" src="src/assets/todo/Screenshot (71).png"  style={{ width: '100%', height: '100%', objectFit: 'cover' }}></img></div>
+               <div className="demoPage demopage1"> <img className="gridimage" src={img40}  style={{ width: '100%', height: '100%', objectFit: 'cover' }}></img></div>
+               <div className="demoPage demopage1"> <img className="gridimage" src={img41}  style={{ width: '100%', height: '100%', objectFit: 'cover' }}></img></div>
               
             </HTMLFlipBook>
           </div></GridItem>
@@ -255,9 +264,9 @@ function MyBook() {
               mobileScrollSupport={false}
             >
               <div className="demoPage demopage3">
-              <img className="gridimage" src="src/assets/Youtube/Screenshot (232).png"   style={{ width: '100%', height: '100%', objectFit: 'cover' }}></img>
+              <img className="gridimage" src={img43}  style={{ width: '100%', height: '100%', objectFit: 'cover' }}></img>
               </div>
-              <div className="demoPage demopage1"> <img className="gridimage" src="src/assets/Youtube/Screenshot (233).png"  style={{ width: '100%', height: '100%', objectFit: 'cover' }}></img></div>
+              <div className="demoPage demopage1"> <img className="gridimage" src={img42}  style={{ width: '100%', height: '100%', objectFit: 'cover' }}></img></div>
              
               
             </HTMLFlipBook>
