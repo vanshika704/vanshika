@@ -3,7 +3,7 @@ import NET from 'vanta/dist/vanta.net.min';
 import Navbar from './navbar';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { FlipWordsDemo } from './flipwords';
-
+import img1 from '../assets/WhatsApp Image 2024-09-20 at 14.08.28_0f46e553.jpg'
 const MyComponent1 = () => {
   const vantaRef = useRef(null);
 
@@ -50,7 +50,7 @@ const MyComponent1 = () => {
         {/* Image section */}
         <div className="flex-1 flex items-center justify-center lg:justify-end lg:mr-40">
           <img
-            src="src/assets/WhatsApp Image 2024-09-20 at 14.08.28_0f46e553.jpg"
+            src= {img1}
             alt="example"
             className="rounded-full w-48 h-48 sm:w-56 sm:h-56 lg:w-96 lg:h-96 transition-transform duration-300 ease-in-out shadow-lg hover:translate-y-5 hover:shadow-2xl"
           />

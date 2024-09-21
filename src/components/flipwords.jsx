@@ -1,6 +1,6 @@
 import { FlipWords } from "./flip-words";
 import { useNavigate } from 'react-router-dom';
-
+import img3 from '../assets/pixel-art-12601_256.gif'
 export function FlipWordsDemo() {
   const words = ["React", "Flutter", "Firebase", "Node"];
   const navigate = useNavigate();
@@ -25,7 +25,7 @@ export function FlipWordsDemo() {
 
       {/* Adjust the image size using height and width */}
       <img
-        src="src/assets/pixel-art-12601_256.gif"
+        src={img3}
         alt="gif"
         className="ml-2"
         style={{ height: '150px', width: '150px' }} // Adjust size here

@@ -6,7 +6,7 @@ import {
   IconFileCode,
   IconMessageCircle
 } from '@tabler/icons-react';
-
+import img2 from '../assets/output-onlinegiftools.gif'
 function Navbar() {
   const links = [
     { title: 'Home', icon: <IconHome className="h-4 w-4 text-gray-700" />, href: '/' },
@@ -25,7 +25,7 @@ function Navbar() {
       <div className="container mx-auto flex items-center justify-between py-1 px-2 lg:px-4">
         <Link to="/" className="flex items-center">
           <img 
-            src='src/assets/output-onlinegiftools.gif' 
+            src={img2} 
             alt="icon" 
             className="hidden lg:block h-5 w-auto" 
           />
